@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-</RelativeLayout>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<Switch
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:padding="10dp"
+		android:id="@+id/switchBeacon"
+		android:text="极地支部信标" />
+	<TextView
+		android:inputType="textMultiLine"
+		android:text="启动信标后，需要Wifi网络处手动设置代理服务器主机名127.0.0.1，端口8080。完事后记得把代理改回“无”，否则无法连网。"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:id="@+id/textDescription" />
+</LinearLayout>
