@@ -1,0 +1,249 @@
+[
+  {
+    "_id": "5c21853f198755628cd8fecb",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":3000}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":1008,\"targetId\":250,\"cnt\":1,\"type\":\"Bracer\"}],\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"11028\":11}},\"equipInventory\":{\"bracers\":{\"250\":{\"id\":250,\"dbId\":1008,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[82101,82102,82103,82104],\"getTime\":1545700671}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218536198755628cd8feca",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":3000}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":300010,\"targetId\":319,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"11028\":12}},\"equipInventory\":{\"weapons\":{\"319\":{\"id\":319,\"dbId\":300010,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Wind\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85551,85555,85557],\"getTime\":1545700662}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c21852d198755628cd8fec9",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":5000}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":2016,\"targetId\":249,\"cnt\":1,\"type\":\"Bracer\"}],\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"11029\":0}},\"equipInventory\":{\"bracers\":{\"249\":{\"id\":249,\"dbId\":2016,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[85101,85102,85103,85104],\"getTime\":1545700653}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209e8ec43fd52960859510",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":10156,\"targetId\":291,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":3006,\"targetId\":228,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":300010,\"targetId\":292,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":300022,\"targetId\":293,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10075,\"targetId\":294,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10156,\"targetId\":295,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10017,\"targetId\":296,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":1002,\"targetId\":229,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":3002,\"targetId\":230,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10061,\"targetId\":297,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10075,\"targetId\":298,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":12104,\"nonfreeCrystal\":0},\"equipInventory\":{\"weapons\":{\"291\":{\"id\":291,\"dbId\":10156,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee04\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[83104,83101,83102,83103],\"getTime\":1545641616},\"292\":{\"id\":292,\"dbId\":300010,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Wind\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85554,85555,85560],\"getTime\":1545641616},\"293\":{\"id\":293,\"dbId\":300022,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_HPRecoveryBuff\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85402,85406,85410],\"getTime\":1545641616},\"294\":{\"id\":294,\"dbId\":10075,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordRange01ex\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,82504,82508,82511],\"getTime\":1545641616},\"295\":{\"id\":295,\"dbId\":10156,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee04\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[83104,83101,83102,83103],\"getTime\":1545641616},\"296\":{\"id\":296,\"dbId\":10017,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03MultiEx\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,80451,80452,80453],\"getTime\":1545641616},\"297\":{\"id\":297,\"dbId\":10061,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03_Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,80352,80356,80357],\"getTime\":1545641616},\"298\":{\"id\":298,\"dbId\":10075,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordRange01ex\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,82501,82509,82510],\"getTime\":1545641616}},\"bracers\":{\"228\":{\"id\":228,\"dbId\":3006,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[87451,87452,87453,87454],\"getTime\":1545641616},\"229\":{\"id\":229,\"dbId\":1002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[81801,81802,81803,81804],\"getTime\":1545641616},\"230\":{\"id\":230,\"dbId\":3002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87251,87252,87253,87254],\"getTime\":1545641616}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c21846da1a2955830df80d5",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":10120,\"targetId\":302,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":2004,\"targetId\":236,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10011,\"targetId\":47,\"cnt\":1,\"type\":\"Equip\"},{\"id\":2003,\"targetId\":237,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10017,\"targetId\":48,\"cnt\":1,\"type\":\"Equip\"},{\"id\":3002,\"targetId\":238,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10049,\"targetId\":303,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":1002,\"targetId\":239,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":3005,\"targetId\":240,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":200037,\"targetId\":304,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":200035,\"targetId\":305,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":7304,\"nonfreeCrystal\":0},\"equipInventory\":{\"weapons\":{\"302\":{\"id\":302,\"dbId\":10120,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85701,85702,85706],\"getTime\":1545700464},\"303\":{\"id\":303,\"dbId\":10049,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,80202,80205,80216],\"getTime\":1545700464},\"304\":{\"id\":304,\"dbId\":200037,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_FallingSlash\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,83351,83352,83353],\"getTime\":1545700464},\"305\":{\"id\":305,\"dbId\":200035,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_IceSphere\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,82901,82902,82903],\"getTime\":1545700464}},\"bracers\":{\"236\":{\"id\":236,\"dbId\":2004,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84451,84453,84456,84458],\"getTime\":1545700464},\"237\":{\"id\":237,\"dbId\":2003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84401,84403,84404,84408],\"getTime\":1545700464},\"238\":{\"id\":238,\"dbId\":3002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87251,87252,87253,87254],\"getTime\":1545700464},\"239\":{\"id\":239,\"dbId\":1002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[81801,81802,81803,81804],\"getTime\":1545700464},\"240\":{\"id\":240,\"dbId\":3005,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87401,87403,87407,87408],\"getTime\":1545700464}},\"equips\":{\"47\":{\"id\":47,\"dbId\":10011,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81251,81255,81258,81272],\"getTime\":1545700464},\"48\":{\"id\":48,\"dbId\":10017,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81401,81402,81403,81404],\"getTime\":1545700464}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209e89c43fd5296085950f",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":3005,\"targetId\":226,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":2005,\"targetId\":227,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10049,\"targetId\":284,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10078,\"targetId\":285,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10130,\"targetId\":286,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":300015,\"targetId\":287,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":200031,\"targetId\":288,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10148,\"targetId\":42,\"cnt\":1,\"type\":\"Equip\"},{\"id\":10078,\"targetId\":289,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":300010,\"targetId\":290,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10039,\"targetId\":43,\"cnt\":1,\"type\":\"Equip\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":14584,\"nonfreeCrystal\":0},\"equipInventory\":{\"bracers\":{\"226\":{\"id\":226,\"dbId\":3005,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87401,87403,87406,87408],\"getTime\":1545641611},\"227\":{\"id\":227,\"dbId\":2005,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84501,84502,84506,84508],\"getTime\":1545641611}},\"weapons\":{\"284\":{\"id\":284,\"dbId\":10049,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,80201,80209,80211],\"getTime\":1545641611},\"285\":{\"id\":285,\"dbId\":10078,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee02Fire\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,82552,82556,82561],\"getTime\":1545641611},\"286\":{\"id\":286,\"dbId\":10130,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,86051,86052,86055],\"getTime\":1545641611},\"287\":{\"id\":287,\"dbId\":300015,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Fire\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85452,85455,85459],\"getTime\":1545641611},\"288\":{\"id\":288,\"dbId\":200031,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee02Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,82602,82603,82608],\"getTime\":1545641611},\"289\":{\"id\":289,\"dbId\":10078,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee02Fire\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,82553,82555,82562],\"getTime\":1545641611},\"290\":{\"id\":290,\"dbId\":300010,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Wind\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85551,85555,85559],\"getTime\":1545641611}},\"equips\":{\"42\":{\"id\":42,\"dbId\":10148,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81301,81302,81303,81304],\"getTime\":1545641611},\"43\":{\"id\":43,\"dbId\":10039,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[86651,86653,86662,86673],\"getTime\":1545641611}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209e65c43fd5296085950e",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":10049,\"targetId\":277,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10061,\"targetId\":278,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":300019,\"targetId\":279,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":1002,\"targetId\":223,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":3003,\"targetId\":224,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10085,\"targetId\":280,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":300015,\"targetId\":281,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10156,\"targetId\":282,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10148,\"targetId\":41,\"cnt\":1,\"type\":\"Equip\"},{\"id\":2002,\"targetId\":225,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":300008,\"targetId\":283,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":17064,\"nonfreeCrystal\":0},\"equipInventory\":{\"weapons\":{\"277\":{\"id\":277,\"dbId\":10049,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,80201,80208,80213],\"getTime\":1545641575},\"278\":{\"id\":278,\"dbId\":10061,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03_Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,80352,80356,80359],\"getTime\":1545641575},\"279\":{\"id\":279,\"dbId\":300019,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01Multi_Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85851,85852,85853],\"getTime\":1545641575},\"280\":{\"id\":280,\"dbId\":10085,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee02Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,82753,82755,82757],\"getTime\":1545641575},\"281\":{\"id\":281,\"dbId\":300015,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Fire\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85453,85454,85459],\"getTime\":1545641575},\"282\":{\"id\":282,\"dbId\":10156,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee04\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[83104,83101,83102,83103],\"getTime\":1545641575},\"283\":{\"id\":283,\"dbId\":300008,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_Blizzard\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,86151,86152,86153],\"getTime\":1545641575}},\"bracers\":{\"223\":{\"id\":223,\"dbId\":1002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[81801,81802,81803,81804],\"getTime\":1545641575},\"224\":{\"id\":224,\"dbId\":3003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87301,87302,87305,87308],\"getTime\":1545641575},\"225\":{\"id\":225,\"dbId\":2002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84351,84352,84353,84354],\"getTime\":1545641575}},\"equips\":{\"41\":{\"id\":41,\"dbId\":10148,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81301,81302,81303,81304],\"getTime\":1545641575}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c21848fa1a2955830df80d6",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":10148,\"targetId\":49,\"cnt\":1,\"type\":\"Equip\"},{\"id\":300010,\"targetId\":306,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10130,\"targetId\":307,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10130,\"targetId\":308,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":3006,\"targetId\":241,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":200016,\"targetId\":309,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":2002,\"targetId\":242,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":2008,\"targetId\":243,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":200016,\"targetId\":310,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":3006,\"targetId\":244,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10049,\"targetId\":311,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":4824,\"nonfreeCrystal\":0},\"equipInventory\":{\"equips\":{\"49\":{\"id\":49,\"dbId\":10148,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81301,81302,81303,81304],\"getTime\":1545700498}},\"weapons\":{\"306\":{\"id\":306,\"dbId\":300010,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Wind\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85553,85555,85557],\"getTime\":1545700498},\"307\":{\"id\":307,\"dbId\":10130,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,86051,86052,86056],\"getTime\":1545700498},\"308\":{\"id\":308,\"dbId\":10130,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,86051,86052,86055],\"getTime\":1545700498},\"309\":{\"id\":309,\"dbId\":200016,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03Multi_Fire\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,80311,80312,80313],\"getTime\":1545700498},\"310\":{\"id\":310,\"dbId\":200016,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03Multi_Fire\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,80311,80312,80313],\"getTime\":1545700498},\"311\":{\"id\":311,\"dbId\":10049,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,80203,80207,80210],\"getTime\":1545700498}},\"bracers\":{\"241\":{\"id\":241,\"dbId\":3006,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[87451,87452,87453,87454],\"getTime\":1545700498},\"242\":{\"id\":242,\"dbId\":2002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84351,84352,84353,84354],\"getTime\":1545700498},\"243\":{\"id\":243,\"dbId\":2008,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[84651,84652,84653,84654],\"getTime\":1545700498},\"244\":{\"id\":244,\"dbId\":3006,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[87451,87452,87453,87454],\"getTime\":1545700498}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209eaec43fd52960859511",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":10005,\"targetId\":44,\"cnt\":1,\"type\":\"Equip\"},{\"id\":300015,\"targetId\":299,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":2003,\"targetId\":231,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10130,\"targetId\":300,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10148,\"targetId\":45,\"cnt\":1,\"type\":\"Equip\"},{\"id\":1002,\"targetId\":232,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":2003,\"targetId\":233,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10148,\"targetId\":46,\"cnt\":1,\"type\":\"Equip\"},{\"id\":300022,\"targetId\":301,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":1002,\"targetId\":234,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":3009,\"targetId\":235,\"cnt\":1,\"type\":\"Bracer\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":9624,\"nonfreeCrystal\":0},\"equipInventory\":{\"equips\":{\"44\":{\"id\":44,\"dbId\":10005,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81151,81152,81153,81154],\"getTime\":1545641648},\"45\":{\"id\":45,\"dbId\":10148,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81301,81302,81303,81304],\"getTime\":1545641648},\"46\":{\"id\":46,\"dbId\":10148,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81301,81302,81303,81304],\"getTime\":1545641648}},\"weapons\":{\"299\":{\"id\":299,\"dbId\":300015,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Fire\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85452,85456,85459],\"getTime\":1545641648},\"300\":{\"id\":300,\"dbId\":10130,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,86051,86052,86055],\"getTime\":1545641648},\"301\":{\"id\":301,\"dbId\":300022,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_HPRecoveryBuff\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85402,85409,85410],\"getTime\":1545641648}},\"bracers\":{\"231\":{\"id\":231,\"dbId\":2003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84401,84402,84405,84408],\"getTime\":1545641648},\"232\":{\"id\":232,\"dbId\":1002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[81801,81802,81803,81804],\"getTime\":1545641648},\"233\":{\"id\":233,\"dbId\":2003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84401,84403,84407,84408],\"getTime\":1545641648},\"234\":{\"id\":234,\"dbId\":1002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[81801,81802,81803,81804],\"getTime\":1545641648},\"235\":{\"id\":235,\"dbId\":3009,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[87601,87602,87603,87604],\"getTime\":1545641648}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2184b8a1a2955830df80d8",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":3000}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":300014,\"targetId\":317,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"11028\":13}},\"equipInventory\":{\"weapons\":{\"317\":{\"id\":317,\"dbId\":300014,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordRange02\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85501,85502,85503],\"getTime\":1545700535}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218496a1a2955830df80d7",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":10039,\"targetId\":50,\"cnt\":1,\"type\":\"Equip\"},{\"id\":3002,\"targetId\":245,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":300010,\"targetId\":312,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10156,\"targetId\":313,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":300019,\"targetId\":314,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":1003,\"targetId\":246,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10008,\"targetId\":51,\"cnt\":1,\"type\":\"Equip\"},{\"id\":10067,\"targetId\":315,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":3002,\"targetId\":247,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":1003,\"targetId\":248,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10120,\"targetId\":316,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":2344,\"nonfreeCrystal\":0},\"equipInventory\":{\"equips\":{\"50\":{\"id\":50,\"dbId\":10039,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[86651,86657,86665,86671],\"getTime\":1545700505},\"51\":{\"id\":51,\"dbId\":10008,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[81201,81206,81218,81228],\"getTime\":1545700505}},\"bracers\":{\"245\":{\"id\":245,\"dbId\":3002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87251,87252,87253,87254],\"getTime\":1545700505},\"246\":{\"id\":246,\"dbId\":1003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[81851,81853,81857,81858],\"getTime\":1545700505},\"247\":{\"id\":247,\"dbId\":3002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87251,87252,87253,87254],\"getTime\":1545700505},\"248\":{\"id\":248,\"dbId\":1003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[81851,81852,81855,81858],\"getTime\":1545700505}},\"weapons\":{\"312\":{\"id\":312,\"dbId\":300010,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Wind\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85554,85555,85560],\"getTime\":1545700505},\"313\":{\"id\":313,\"dbId\":10156,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordMelee04\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[83104,83101,83102,83103],\"getTime\":1545700505},\"314\":{\"id\":314,\"dbId\":300019,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01Multi_Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,85851,85852,85853],\"getTime\":1545700505},\"315\":{\"id\":315,\"dbId\":10067,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SakuraBuff\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80804,80801,80802,80803],\"getTime\":1545700505},\"316\":{\"id\":316,\"dbId\":10120,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85701,85704,85705],\"getTime\":1545700505}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098dade192c4f68d2ed65",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":2001}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":2009,\"targetId\":218,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10120,\"targetId\":272,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":3004,\"targetId\":219,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":2002,\"targetId\":220,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10075,\"targetId\":273,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":3003,\"targetId\":221,\"cnt\":1,\"type\":\"Bracer\"},{\"id\":10130,\"targetId\":274,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":200037,\"targetId\":275,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10067,\"targetId\":276,\"cnt\":1,\"type\":\"Weapon\"},{\"id\":10057,\"targetId\":40,\"cnt\":1,\"type\":\"Equip\"},{\"id\":3003,\"targetId\":222,\"cnt\":1,\"type\":\"Bracer\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":19304,\"nonfreeCrystal\":0},\"equipInventory\":{\"bracers\":{\"218\":{\"id\":218,\"dbId\":2009,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[84701,84702,84703,84704],\"getTime\":1545640156},\"219\":{\"id\":219,\"dbId\":3004,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87351,87353,87354,87358],\"getTime\":1545640156},\"220\":{\"id\":220,\"dbId\":2002,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[84351,84352,84353,84354],\"getTime\":1545640156},\"221\":{\"id\":221,\"dbId\":3003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87301,87302,87305,87308],\"getTime\":1545640156},\"222\":{\"id\":222,\"dbId\":3003,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[87301,87302,87306,87308],\"getTime\":1545640156}},\"weapons\":{\"272\":{\"id\":272,\"dbId\":10120,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Earth\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,85701,85704,85706],\"getTime\":1545640156},\"273\":{\"id\":273,\"dbId\":10075,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordRange01ex\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,82503,82508,82510],\"getTime\":1545640156},\"274\":{\"id\":274,\"dbId\":10130,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_WizardRange01_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,86051,86053,86056],\"getTime\":1545640156},\"275\":{\"id\":275,\"dbId\":200037,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_FallingSlash\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80000,83351,83352,83353],\"getTime\":1545640156},\"276\":{\"id\":276,\"dbId\":10067,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SakuraBuff\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80804,80801,80802,80803],\"getTime\":1545640156}},\"equips\":{\"40\":{\"id\":40,\"dbId\":10057,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[83801,83802,83803,83804],\"getTime\":1545640156}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2184caa1a2955830df80d9",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/gacha",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "16",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"gachaId\":5000}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":10067,\"targetId\":318,\"cnt\":1,\"type\":\"Weapon\"}],\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"11029\":1}},\"equipInventory\":{\"weapons\":{\"318\":{\"id\":318,\"dbId\":10067,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SakuraBuff\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80804,80801,80802,80803],\"getTime\":1545700553}}}},\"deleted\":{}}}"
+    }
+  }
+]

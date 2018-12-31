@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "5c22520bf6d7c74a7467313c",
+    "url": "http://androidprod.nono.nyanbox.com:8082/battle/getGlobalBuff",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "2",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{}"
+    },
+    "res": {
+      "body": "{\"buffs\":[]}"
+    }
+  },
+  {
+    "_id": "5c20992bde192c4f68d2ed6b",
+    "url": "http://androidprod.nono.nyanbox.com:8082/battle/getGlobalBuff",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "2",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{}"
+    },
+    "res": {
+      "body": "{\"buffs\":[]}"
+    }
+  }
+]

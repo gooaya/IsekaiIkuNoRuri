@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "5c218618198755628cd8fed7",
+    "url": "http://androidprod.nono.nyanbox.com:8082/weapon/dismantleWeapons",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "25",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetWeaponIds\":[284]}"
+    },
+    "res": {
+      "body": "{\"artifacts\":[{\"cnt\":1714,\"type\":\"Gold\"},{\"id\":80201,\"cnt\":1,\"type\":\"InventoryItem\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"gold\":5000015},\"inventory\":{\"items\":{\"80201\":1}},\"equipInventory\":{\"weapons\":{}}},\"deleted\":{\"equipInventory\":{\"weapons\":[284,284]}}}}"
+    }
+  }
+]

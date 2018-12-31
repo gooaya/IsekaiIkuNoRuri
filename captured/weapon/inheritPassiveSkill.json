@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "5c21865f198755628cd8fed9",
+    "url": "http://androidprod.nono.nyanbox.com:8082/weapon/inheritPassiveSkill",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "64",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetWeaponId\":210,\"passiveSkillId\":80201,\"targetPosition\":1}"
+    },
+    "res": {
+      "body": "{\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"80201\":0}},\"equipInventory\":{\"weapons\":{\"210\":{\"id\":210,\"dbId\":10049,\"lvl\":1,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_BladeRange03_Water\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1],\"passiveSkillIds\":[80000,80201,80209,80210],\"getTime\":1507126138}}}},\"deleted\":{}}}"
+    }
+  }
+]

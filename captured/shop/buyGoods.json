@@ -1,0 +1,135 @@
+[
+  {
+    "_id": "5c2253293a022c2004c22679",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/buyGoods",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "25",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"goodsId\":1011,\"cnt\":11}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":6,\"targetId\":8517,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8518,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8519,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8520,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8521,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8522,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8523,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8524,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8525,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8526,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8527,\"cnt\":1,\"type\":\"FoodIngredient\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"gold\":4994275},\"shop\":{\"goodsTotalBuyCnt\":{\"505\":206,\"506\":1,\"507\":1,\"508\":2,\"509\":39,\"510\":3,\"511\":10,\"512\":3,\"513\":8,\"514\":1,\"515\":1,\"516\":1,\"517\":1,\"518\":1,\"1005\":1,\"1006\":164,\"1007\":10,\"1008\":234,\"1009\":1059,\"1010\":123,\"1011\":1736,\"1012\":355,\"1030\":5,\"1031\":1,\"1033\":8,\"1039\":35,\"1071\":1,\"1072\":1,\"1073\":1,\"1074\":1,\"1075\":1,\"1076\":1,\"1077\":9,\"1078\":7,\"1079\":8,\"1085\":99,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10,\"8003\":40,\"8004\":10}},\"inventory\":{\"foodIngredients\":{\"8517\":{\"id\":8517,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":12},\"8518\":{\"id\":8518,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":88},\"8519\":{\"id\":8519,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":59},\"8520\":{\"id\":8520,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":85},\"8521\":{\"id\":8521,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":13},\"8522\":{\"id\":8522,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":54},\"8523\":{\"id\":8523,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":2},\"8524\":{\"id\":8524,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":64},\"8525\":{\"id\":8525,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":45},\"8526\":{\"id\":8526,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":90},\"8527\":{\"id\":8527,\"foodIngredientId\":6,\"expiredTime\":1546012586,\"actualStar\":1,\"quality\":53}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2253243a022c2004c22678",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/buyGoods",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "25",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"goodsId\":1009,\"cnt\":11}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":19,\"targetId\":8506,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8507,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8508,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8509,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8510,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8511,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8512,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8513,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8514,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8515,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8516,\"cnt\":1,\"type\":\"FoodIngredient\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"gold\":4996915},\"shop\":{\"goodsTotalBuyCnt\":{\"505\":206,\"506\":1,\"507\":1,\"508\":2,\"509\":39,\"510\":3,\"511\":10,\"512\":3,\"513\":8,\"514\":1,\"515\":1,\"516\":1,\"517\":1,\"518\":1,\"1005\":1,\"1006\":164,\"1007\":10,\"1008\":234,\"1009\":1059,\"1010\":123,\"1011\":1725,\"1012\":355,\"1030\":5,\"1031\":1,\"1033\":8,\"1039\":35,\"1071\":1,\"1072\":1,\"1073\":1,\"1074\":1,\"1075\":1,\"1076\":1,\"1077\":9,\"1078\":7,\"1079\":8,\"1085\":99,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10,\"8003\":40,\"8004\":10}},\"inventory\":{\"foodIngredients\":{\"8506\":{\"id\":8506,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":4},\"8507\":{\"id\":8507,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":16},\"8508\":{\"id\":8508,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":80},\"8509\":{\"id\":8509,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":8},\"8510\":{\"id\":8510,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":34},\"8511\":{\"id\":8511,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":13},\"8512\":{\"id\":8512,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":9},\"8513\":{\"id\":8513,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":22},\"8514\":{\"id\":8514,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":67},\"8515\":{\"id\":8515,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":52},\"8516\":{\"id\":8516,\"foodIngredientId\":19,\"expiredTime\":1546012581,\"actualStar\":1,\"quality\":95}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218209c8a1695b90be365e",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/buyGoods",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "25",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"goodsId\":1011,\"cnt\":11}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":6,\"targetId\":8485,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8486,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8487,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8488,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8489,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8490,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8491,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8492,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8493,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8494,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8495,\"cnt\":1,\"type\":\"FoodIngredient\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"gold\":4992811},\"shop\":{\"goodsTotalBuyCnt\":{\"505\":206,\"506\":1,\"507\":1,\"508\":2,\"509\":39,\"510\":3,\"511\":10,\"512\":3,\"513\":8,\"514\":1,\"515\":1,\"516\":1,\"517\":1,\"518\":1,\"1006\":164,\"1007\":10,\"1008\":234,\"1009\":1046,\"1010\":123,\"1011\":1725,\"1012\":355,\"1030\":5,\"1031\":1,\"1033\":8,\"1039\":35,\"1071\":1,\"1072\":1,\"1073\":1,\"1074\":1,\"1075\":1,\"1076\":1,\"1077\":9,\"1078\":7,\"1079\":8,\"1085\":99,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10,\"8003\":40,\"8004\":10}},\"inventory\":{\"foodIngredients\":{\"8485\":{\"id\":8485,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":65},\"8486\":{\"id\":8486,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":59},\"8487\":{\"id\":8487,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":81},\"8488\":{\"id\":8488,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":97},\"8489\":{\"id\":8489,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":48},\"8490\":{\"id\":8490,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":11},\"8491\":{\"id\":8491,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":83},\"8492\":{\"id\":8492,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":60},\"8493\":{\"id\":8493,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":61},\"8494\":{\"id\":8494,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":37},\"8495\":{\"id\":8495,\"foodIngredientId\":6,\"expiredTime\":1545959052,\"actualStar\":1,\"quality\":18}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209d53a5ec1f1664565cc8",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/buyGoods",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "25",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"goodsId\":1011,\"cnt\":10}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":6,\"targetId\":8452,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8453,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8454,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8455,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8456,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8457,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8458,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8459,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8460,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":6,\"targetId\":8461,\"cnt\":1,\"type\":\"FoodIngredient\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"gold\":5005973},\"shop\":{\"goodsTotalBuyCnt\":{\"505\":206,\"506\":1,\"507\":1,\"508\":2,\"509\":39,\"510\":3,\"511\":10,\"512\":3,\"513\":8,\"514\":1,\"515\":1,\"516\":1,\"517\":1,\"518\":1,\"1006\":163,\"1007\":10,\"1008\":234,\"1009\":1026,\"1010\":123,\"1011\":1714,\"1012\":355,\"1030\":5,\"1031\":1,\"1033\":8,\"1039\":35,\"1071\":1,\"1072\":1,\"1073\":1,\"1074\":1,\"1075\":1,\"1076\":1,\"1077\":9,\"1078\":7,\"1079\":8,\"1085\":99,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10,\"8003\":40,\"8004\":10}},\"inventory\":{\"foodIngredients\":{\"8452\":{\"id\":8452,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":11},\"8453\":{\"id\":8453,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":93},\"8454\":{\"id\":8454,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":8},\"8455\":{\"id\":8455,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":22},\"8456\":{\"id\":8456,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":76},\"8457\":{\"id\":8457,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":7},\"8458\":{\"id\":8458,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":80},\"8459\":{\"id\":8459,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":79},\"8460\":{\"id\":8460,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":62},\"8461\":{\"id\":8461,\"foodIngredientId\":6,\"expiredTime\":1545900501,\"actualStar\":1,\"quality\":67}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209d58a5ec1f1664565cc9",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/buyGoods",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "25",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"goodsId\":1009,\"cnt\":10}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":19,\"targetId\":8462,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8463,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8464,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8465,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8466,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8467,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8468,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8469,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8470,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8471,\"cnt\":1,\"type\":\"FoodIngredient\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"gold\":5001973},\"shop\":{\"goodsTotalBuyCnt\":{\"505\":206,\"506\":1,\"507\":1,\"508\":2,\"509\":39,\"510\":3,\"511\":10,\"512\":3,\"513\":8,\"514\":1,\"515\":1,\"516\":1,\"517\":1,\"518\":1,\"1006\":163,\"1007\":10,\"1008\":234,\"1009\":1036,\"1010\":123,\"1011\":1714,\"1012\":355,\"1030\":5,\"1031\":1,\"1033\":8,\"1039\":35,\"1071\":1,\"1072\":1,\"1073\":1,\"1074\":1,\"1075\":1,\"1076\":1,\"1077\":9,\"1078\":7,\"1079\":8,\"1085\":99,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10,\"8003\":40,\"8004\":10}},\"inventory\":{\"foodIngredients\":{\"8462\":{\"id\":8462,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":92},\"8463\":{\"id\":8463,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":61},\"8464\":{\"id\":8464,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":93},\"8465\":{\"id\":8465,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":68},\"8466\":{\"id\":8466,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":25},\"8467\":{\"id\":8467,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":49},\"8468\":{\"id\":8468,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":44},\"8469\":{\"id\":8469,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":72},\"8470\":{\"id\":8470,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":33},\"8471\":{\"id\":8471,\"foodIngredientId\":19,\"expiredTime\":1545900507,\"actualStar\":1,\"quality\":7}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209d9dc43fd52960859501",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/buyGoods",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "25",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"goodsId\":1009,\"cnt\":10}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":19,\"targetId\":8472,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8473,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8474,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8475,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8476,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8477,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8478,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8479,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8480,\"cnt\":1,\"type\":\"FoodIngredient\"},{\"id\":19,\"targetId\":8481,\"cnt\":1,\"type\":\"FoodIngredient\"}],\"playerDataDelta\":{\"modified\":{\"status\":{\"gold\":4997973},\"shop\":{\"goodsTotalBuyCnt\":{\"505\":206,\"506\":1,\"507\":1,\"508\":2,\"509\":39,\"510\":3,\"511\":10,\"512\":3,\"513\":8,\"514\":1,\"515\":1,\"516\":1,\"517\":1,\"518\":1,\"1006\":163,\"1007\":10,\"1008\":234,\"1009\":1046,\"1010\":123,\"1011\":1714,\"1012\":355,\"1030\":5,\"1031\":1,\"1033\":8,\"1039\":35,\"1071\":1,\"1072\":1,\"1073\":1,\"1074\":1,\"1075\":1,\"1076\":1,\"1077\":9,\"1078\":7,\"1079\":8,\"1085\":99,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10,\"8003\":40,\"8004\":10}},\"inventory\":{\"foodIngredients\":{\"8472\":{\"id\":8472,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":7},\"8473\":{\"id\":8473,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":60},\"8474\":{\"id\":8474,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":60},\"8475\":{\"id\":8475,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":71},\"8476\":{\"id\":8476,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":66},\"8477\":{\"id\":8477,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":88},\"8478\":{\"id\":8478,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":63},\"8479\":{\"id\":8479,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":8},\"8480\":{\"id\":8480,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":46},\"8481\":{\"id\":8481,\"foodIngredientId\":19,\"expiredTime\":1545900575,\"actualStar\":1,\"quality\":69}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2181fcc8a1695b90be365d",
+    "url": "http://androidprod.nono.nyanbox.com:8082/shop/buyGoods",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "24",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"goodsId\":1006,\"cnt\":1}"
+    },
+    "res": {
+      "body": "{\"drops\":[{\"id\":1183,\"cnt\":1,\"type\":\"InventoryItem\"}],\"playerDataDelta\":{\"modified\":{\"shop\":{\"goodsPeriodBuyCnt\":{\"506\":{\"cnt\":1,\"threshold\":1523613600},\"507\":{\"cnt\":1,\"threshold\":1523613600},\"508\":{\"cnt\":2,\"threshold\":1523613600},\"509\":{\"cnt\":0,\"threshold\":1502532000},\"510\":{\"cnt\":3,\"threshold\":1523613600},\"511\":{\"cnt\":0,\"threshold\":1502532000},\"512\":{\"cnt\":3,\"threshold\":1523613600},\"513\":{\"cnt\":0,\"threshold\":1502532000},\"514\":{\"cnt\":1,\"threshold\":1523613600},\"515\":{\"cnt\":1,\"threshold\":1523613600},\"516\":{\"cnt\":1,\"threshold\":1523613600},\"517\":{\"cnt\":1,\"threshold\":1523613600},\"518\":{\"cnt\":1,\"threshold\":1523613600},\"1006\":{\"cnt\":1,\"threshold\":1545710400},\"1030\":{\"cnt\":0,\"threshold\":1545710400},\"1039\":{\"cnt\":1,\"threshold\":1492617600},\"1073\":{\"cnt\":0,\"threshold\":1545710400},\"1074\":{\"cnt\":0,\"threshold\":1545710400},\"1075\":{\"cnt\":0,\"threshold\":1545710400},\"1076\":{\"cnt\":0,\"threshold\":1545710400},\"1077\":{\"cnt\":0,\"threshold\":1545710400},\"1078\":{\"cnt\":0,\"threshold\":1545710400},\"1079\":{\"cnt\":0,\"threshold\":1545710400},\"1086\":{\"cnt\":4,\"threshold\":1566615600},\"1087\":{\"cnt\":5,\"threshold\":1566615600},\"1088\":{\"cnt\":5,\"threshold\":1566615600},\"1089\":{\"cnt\":20,\"threshold\":1566615600},\"1090\":{\"cnt\":8,\"threshold\":1566615600},\"1091\":{\"cnt\":2,\"threshold\":1566615600},\"1092\":{\"cnt\":100,\"threshold\":1566615600},\"1093\":{\"cnt\":10,\"threshold\":1566615600},\"1094\":{\"cnt\":20,\"threshold\":1566615600},\"1095\":{\"cnt\":10,\"threshold\":1566615600}},\"goodsDailyBuyCnt\":{\"1006\":1,\"1030\":0,\"1073\":0,\"1074\":0,\"1075\":0,\"1076\":0,\"1077\":0,\"1078\":0,\"1079\":0,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10},\"goodsTotalBuyCnt\":{\"505\":206,\"506\":1,\"507\":1,\"508\":2,\"509\":39,\"510\":3,\"511\":10,\"512\":3,\"513\":8,\"514\":1,\"515\":1,\"516\":1,\"517\":1,\"518\":1,\"1006\":164,\"1007\":10,\"1008\":234,\"1009\":1046,\"1010\":123,\"1011\":1714,\"1012\":355,\"1030\":5,\"1031\":1,\"1033\":8,\"1039\":35,\"1071\":1,\"1072\":1,\"1073\":1,\"1074\":1,\"1075\":1,\"1076\":1,\"1077\":9,\"1078\":7,\"1079\":8,\"1085\":99,\"1086\":4,\"1087\":5,\"1088\":5,\"1089\":20,\"1090\":8,\"1091\":2,\"1092\":100,\"1093\":10,\"1094\":20,\"1095\":10,\"8003\":40,\"8004\":10}},\"status\":{\"gold\":4995451},\"inventory\":{\"items\":{\"1183\":1}}},\"deleted\":{}}}"
+    }
+  }
+]

@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "5c20a089c43fd5296085953f",
+    "url": "http://androidprod.nono.nyanbox.com:8082/weapon/upgradeWeapon",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "108",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetWeaponId\":130,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":300,\"lvlupGoldCostAll\":50,\"rScale\":1.5,\"rState\":1},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3171}},\"status\":{\"gold\":4998038},\"equipInventory\":{\"weapons\":{\"130\":{\"id\":130,\"dbId\":10308,\"lvl\":35,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordSummer\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80001,89051,89052,89053],\"getTime\":1504704276,\"exp\":3352}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20a083c43fd5296085953e",
+    "url": "http://androidprod.nono.nyanbox.com:8082/weapon/upgradeWeapon",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "108",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetWeaponId\":130,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3172}},\"status\":{\"gold\":4998088},\"equipInventory\":{\"weapons\":{\"130\":{\"id\":130,\"dbId\":10308,\"lvl\":35,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordSummer\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80001,89051,89052,89053],\"getTime\":1504704276,\"exp\":3052}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20a07dc43fd5296085953d",
+    "url": "http://androidprod.nono.nyanbox.com:8082/weapon/upgradeWeapon",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "108",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetWeaponId\":130,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3173}},\"status\":{\"gold\":4998138},\"equipInventory\":{\"weapons\":{\"130\":{\"id\":130,\"dbId\":10308,\"lvl\":35,\"evolveLvl\":0,\"spriteLvl\":0,\"skillKey\":\"Skill_SwordSummer\",\"skillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[80001,89051,89052,89053],\"getTime\":1504704276,\"exp\":2852}}}},\"deleted\":{}}}"
+    }
+  }
+]

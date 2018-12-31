@@ -1,0 +1,135 @@
+[
+  {
+    "_id": "5c218792af2af355d8b91e9b",
+    "url": "http://androidprod.nono.nyanbox.com:8082/equip/upgradeEquip",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "106",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetEquipId\":23,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":3,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":600,\"lvlupGoldCostAll\":150,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3159}},\"status\":{\"gold\":4999715},\"mission\":{\"missionStatistics\":{\"5103\":{\"5103_1\":4}}},\"equipInventory\":{\"equips\":{\"23\":{\"id\":23,\"dbId\":10164,\"lvl\":34,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89101,89102,89103,89104],\"getTime\":1505313701,\"exp\":5301}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c21878baf2af355d8b91e9a",
+    "url": "http://androidprod.nono.nyanbox.com:8082/equip/upgradeEquip",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "106",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetEquipId\":23,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3162}},\"status\":{\"gold\":4999865},\"mission\":{\"missionStatistics\":{\"5103\":{\"5103_1\":3}}},\"equipInventory\":{\"equips\":{\"23\":{\"id\":23,\"dbId\":10164,\"lvl\":34,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89101,89102,89103,89104],\"getTime\":1505313701,\"exp\":4701}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218789af2af355d8b91e99",
+    "url": "http://androidprod.nono.nyanbox.com:8082/equip/upgradeEquip",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "106",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetEquipId\":23,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3163}},\"status\":{\"gold\":4999915},\"mission\":{\"missionStatistics\":{\"5103\":{\"5103_1\":2}}},\"equipInventory\":{\"equips\":{\"23\":{\"id\":23,\"dbId\":10164,\"lvl\":34,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89101,89102,89103,89104],\"getTime\":1505313701,\"exp\":4501}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20a0a5c43fd52960859540",
+    "url": "http://androidprod.nono.nyanbox.com:8082/equip/upgradeEquip",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "106",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetEquipId\":23,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3170}},\"status\":{\"gold\":4997988},\"mission\":{\"missionStatistics\":{\"5103\":{\"5103_1\":1},\"5104\":{\"5104_1\":1}}},\"equipInventory\":{\"equips\":{\"23\":{\"id\":23,\"dbId\":10164,\"lvl\":34,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89101,89102,89103,89104],\"getTime\":1505313701,\"exp\":3601}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20a0abc43fd52960859542",
+    "url": "http://androidprod.nono.nyanbox.com:8082/equip/upgradeEquip",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "106",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetEquipId\":23,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3168}},\"status\":{\"gold\":4997888},\"mission\":{\"missionStatistics\":{\"5103\":{\"5103_1\":3},\"5104\":{\"5104_1\":3}}},\"equipInventory\":{\"equips\":{\"23\":{\"id\":23,\"dbId\":10164,\"lvl\":34,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89101,89102,89103,89104],\"getTime\":1505313701,\"exp\":4101}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20a0a8c43fd52960859541",
+    "url": "http://androidprod.nono.nyanbox.com:8082/equip/upgradeEquip",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "106",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetEquipId\":23,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":300,\"lvlupGoldCostAll\":50,\"rScale\":1.5,\"rState\":1},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3169}},\"status\":{\"gold\":4997938},\"mission\":{\"missionStatistics\":{\"5103\":{\"5103_1\":2},\"5104\":{\"5104_1\":2}}},\"equipInventory\":{\"equips\":{\"23\":{\"id\":23,\"dbId\":10164,\"lvl\":34,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89101,89102,89103,89104],\"getTime\":1505313701,\"exp\":3901}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218784af2af355d8b91e98",
+    "url": "http://androidprod.nono.nyanbox.com:8082/equip/upgradeEquip",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "106",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetEquipId\":23,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3164}},\"status\":{\"gold\":4999965},\"mission\":{\"missionStatistics\":{\"5103\":{\"5103_1\":1}}},\"equipInventory\":{\"equips\":{\"23\":{\"id\":23,\"dbId\":10164,\"lvl\":34,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89101,89102,89103,89104],\"getTime\":1505313701,\"exp\":4301}}}},\"deleted\":{}}}"
+    }
+  }
+]

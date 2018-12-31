@@ -1,0 +1,59 @@
+[
+  {
+    "_id": "5c20a0cec43fd52960859545",
+    "url": "http://androidprod.nono.nyanbox.com:8082/bracer/upgradeBracer",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "108",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetBracerId\":123,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":200,\"lvlupGoldCostAll\":50,\"rScale\":1,\"rState\":0},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3165}},\"status\":{\"gold\":4997738},\"equipInventory\":{\"bracers\":{\"123\":{\"id\":123,\"dbId\":3021,\"lvl\":32,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89111,89112,89113,89114],\"getTime\":1505313616,\"exp\":4085}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20a0c7c43fd52960859544",
+    "url": "http://androidprod.nono.nyanbox.com:8082/bracer/upgradeBracer",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "108",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetBracerId\":123,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":400,\"lvlupGoldCostAll\":50,\"rScale\":2,\"rState\":2},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3166}},\"status\":{\"gold\":4997788},\"equipInventory\":{\"bracers\":{\"123\":{\"id\":123,\"dbId\":3021,\"lvl\":32,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89111,89112,89113,89114],\"getTime\":1505313616,\"exp\":3885}}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20a0c1c43fd52960859543",
+    "url": "http://androidprod.nono.nyanbox.com:8082/bracer/upgradeBracer",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "108",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetBracerId\":123,\"items\":[{\"targetId\":4100,\"id\":-1,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"result\":{\"values\":[{\"lvlupGoldCost\":50,\"provideExp\":100,\"scale\":2}],\"provideExpAll\":400,\"lvlupGoldCostAll\":50,\"rScale\":2,\"rState\":2},\"playerDataDelta\":{\"modified\":{\"inventory\":{\"items\":{\"4100\":3167}},\"status\":{\"gold\":4997838},\"equipInventory\":{\"bracers\":{\"123\":{\"id\":123,\"dbId\":3021,\"lvl\":32,\"evolveLvl\":0,\"spriteLvl\":0,\"corePassiveSkillLvl\":1,\"loadedCharacterId\":-1,\"gems\":[-1,-1,-1,-1,-1,-1,-1,-1,-1],\"passiveSkillIds\":[89111,89112,89113,89114],\"getTime\":1505313616,\"exp\":3485}}}},\"deleted\":{}}}"
+    }
+  }
+]

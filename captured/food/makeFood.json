@@ -1,0 +1,553 @@
+[
+  {
+    "_id": "5c2253733a022c2004c22684",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8518,8515],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753475,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.96509664823003,324.6684348664356,288.8759949617751,221.48281625360192,0],\"foodProficiency\":1627.6010631090078,\"actionPoint\":117,\"fullPoint\":30,\"lastRefreshTime\":1545753401,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":54,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":103,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":460,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":78,\"90\":10,\"91\":0,\"94\":2,\"96\":105,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8518,8515,8518,8515]}}}}"
+    }
+  },
+  {
+    "_id": "5c2253623a022c2004c22681",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8509,8519],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753503,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[253.97763569360302,340.35355331877855,251.54041928369722,219.65826188215522,0],\"foodProficiency\":1353.1826868759583,\"actionPoint\":101,\"fullPoint\":44.8,\"lastRefreshTime\":1545753424,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":96,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":38,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":112,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":78,\"91\":50,\"94\":8,\"96\":105,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":109,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":200,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8509,8519,8509,8519]}}}}"
+    }
+  },
+  {
+    "_id": "5c22533f3a022c2004c2267b",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8499,8523],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753423,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.96509664823003,324.6684348664356,288.8759949617751,221.48281625360192,0],\"foodProficiency\":1625.6010631090078,\"actionPoint\":106,\"fullPoint\":109.80000000000001,\"lastRefreshTime\":1545701801,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":88,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":103,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":78,\"90\":10,\"91\":0,\"94\":2,\"96\":105,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8499,8523,8499,8523]}}}}"
+    }
+  },
+  {
+    "_id": "5c2253323a022c2004c2267a",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8507,8524],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753410,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.59342198463304,345.96485408154734,244.2829413705087,189.70528710832264,0],\"foodProficiency\":1491.5056894175123,\"actionPoint\":105,\"fullPoint\":129.7,\"lastRefreshTime\":1545753297,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":34,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":98,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":122,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":107,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8507,8524,8507,8524]}}}}"
+    }
+  },
+  {
+    "_id": "5c2253073a022c2004c22671",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "49",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8484],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753372,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[253.077635693603,340.35355331877855,251.54041928369722,219.65826188215522,0],\"foodProficiency\":1352.1826868759583,\"actionPoint\":51.95,\"fullPoint\":109.8,\"lastRefreshTime\":1545701884,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":51,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":38,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":112,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":78,\"91\":50,\"94\":6,\"96\":104,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":109,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":200,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8484,8484]}}}}"
+    }
+  },
+  {
+    "_id": "5c209fa9c43fd52960859529",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8455,8468],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641929,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[252.87763569360303,340.1535533187785,251.44041928369722,219.55826188215522,0],\"foodProficiency\":1346.1826868759583,\"actionPoint\":15.999999999999979,\"fullPoint\":0,\"lastRefreshTime\":1545640894,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":82,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":36,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":108,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":77,\"91\":50,\"94\":6,\"96\":102,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":104,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":190,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8455,8468,8455,8468]}}}}"
+    }
+  },
+  {
+    "_id": "5c209ed5c43fd52960859518",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8465,8459],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641702,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[252.87763569360303,340.1535533187785,251.44041928369722,219.55826188215522,0],\"foodProficiency\":1344.1826868759583,\"actionPoint\":15.999999999999979,\"fullPoint\":0,\"lastRefreshTime\":1545640894,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":82,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":36,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":108,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":77,\"91\":50,\"94\":6,\"96\":102,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":104,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":190,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8465,8459,8465,8459]}}}}"
+    }
+  },
+  {
+    "_id": "5c209d29a5ec1f1664565cc0",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "49",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8447],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641289,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1471.5056894175123,\"actionPoint\":28.99999999999999,\"fullPoint\":124.9,\"lastRefreshTime\":1545641127,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":25,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":114,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":105,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8447,8447]}}}}"
+    }
+  },
+  {
+    "_id": "5c209ec8c43fd52960859516",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8461,8464],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641704,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1475.5056894175123,\"actionPoint\":28.99999999999999,\"fullPoint\":124.9,\"lastRefreshTime\":1545641127,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":25,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":114,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":105,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8461,8464,8461,8464]}}}}"
+    }
+  },
+  {
+    "_id": "5c21822ac8a1695b90be3663",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8481,8492],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545699915,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.76509664823,324.46843486643553,288.6759949617751,221.28281625360194,0],\"foodProficiency\":1616.6010631090078,\"actionPoint\":53.84999999999999,\"fullPoint\":129.9,\"lastRefreshTime\":1545641981,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":96,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":101,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":76,\"90\":10,\"91\":0,\"94\":2,\"96\":105,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"mission\":{\"missionStatistics\":{\"1101\":{\"1101_1\":3},\"1102\":{\"1102_1\":3},\"1104\":{\"1104_1\":1}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8481,8492,8481,8492]}}}}"
+    }
+  },
+  {
+    "_id": "5c209dbcc43fd52960859505",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8456,8467],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641421,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[252.87763569360303,340.1535533187785,251.44041928369722,219.55826188215522,0],\"foodProficiency\":1342.1826868759583,\"actionPoint\":15.999999999999979,\"fullPoint\":0,\"lastRefreshTime\":1545640894,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":82,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":36,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":108,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":77,\"91\":50,\"94\":6,\"96\":102,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":104,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":190,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8456,8467,8456,8467]}}}}"
+    }
+  },
+  {
+    "_id": "5c209db2c43fd52960859504",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8462,8460],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641456,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1472.5056894175123,\"actionPoint\":28.99999999999999,\"fullPoint\":124.9,\"lastRefreshTime\":1545641127,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":25,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":114,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":105,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8462,8460,8462,8460]}}}}"
+    }
+  },
+  {
+    "_id": "5c21821cc8a1695b90be3661",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8469,8485],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545699886,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1481.5056894175123,\"actionPoint\":28.99999999999999,\"fullPoint\":124.9,\"lastRefreshTime\":1545641127,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":25,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":114,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":105,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"mission\":{\"missionStatistics\":{\"1101\":{\"1101_1\":1},\"1102\":{\"1102_1\":1}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8469,8485,8469,8485]}}}}"
+    }
+  },
+  {
+    "_id": "5c21873caf2af355d8b91e92",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8480,8488],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545701240,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1483.5056894175123,\"actionPoint\":45.4,\"fullPoint\":0,\"lastRefreshTime\":1545700407,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":25,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":114,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":105,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8480,8488,8480,8488]}}}}"
+    }
+  },
+  {
+    "_id": "5c21874daf2af355d8b91e94",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8475,8494],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545701227,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[252.97763569360302,340.25355331877853,251.44041928369722,219.55826188215522,0],\"foodProficiency\":1348.1826868759583,\"actionPoint\":45.4,\"fullPoint\":0,\"lastRefreshTime\":1545700414,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":96,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":38,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":108,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":77,\"91\":50,\"94\":6,\"96\":104,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":104,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":190,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8475,8494,8475,8494]}}}}"
+    }
+  },
+  {
+    "_id": "5c2253583a022c2004c22680",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8508,8517],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753493,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.59342198463304,345.96485408154734,244.2829413705087,189.70528710832264,0],\"foodProficiency\":1493.5056894175123,\"actionPoint\":105,\"fullPoint\":129.7,\"lastRefreshTime\":1545753297,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":34,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":98,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":122,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":107,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8508,8517,8508,8517]}}}}"
+    }
+  },
+  {
+    "_id": "5c22522df6d7c74a74673140",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8489,8471],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753194,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1488.5056894175123,\"actionPoint\":50.65,\"fullPoint\":99.80000000000001,\"lastRefreshTime\":1545701697,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":51,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":116,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":107,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8489,8471,8489,8471]}}}}"
+    }
+  },
+  {
+    "_id": "5c209fbcc43fd5296085952b",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8466,8452],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641933,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.56509664822994,324.2684348664355,288.47599496177503,221.18281625360194,0],\"foodProficiency\":1614.6010631090078,\"actionPoint\":47.54999999999998,\"fullPoint\":0,\"lastRefreshTime\":1545641831,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":82,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":99,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":75,\"90\":10,\"91\":0,\"94\":2,\"96\":104,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8466,8452,8466,8452]}}}}"
+    }
+  },
+  {
+    "_id": "5c218223c8a1695b90be3662",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8478,8486],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545699908,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[252.97763569360302,340.25355331877853,251.44041928369722,219.55826188215522,0],\"foodProficiency\":1347.1826868759583,\"actionPoint\":20.899999999999977,\"fullPoint\":122,\"lastRefreshTime\":1545642034,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":96,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":38,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":108,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":77,\"91\":50,\"94\":6,\"96\":104,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":104,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":190,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"mission\":{\"missionStatistics\":{\"1101\":{\"1101_1\":2},\"1102\":{\"1102_1\":2}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8478,8486,8478,8486]}}}}"
+    }
+  },
+  {
+    "_id": "5c2253a23a022c2004c22686",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "59",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8482,8497,8503],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753537,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.96509664823003,324.6684348664356,288.8759949617751,221.48281625360192,0],\"foodProficiency\":1629.6010631090078,\"actionPoint\":117,\"fullPoint\":30,\"lastRefreshTime\":1545753401,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":54,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":103,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":460,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":78,\"90\":10,\"91\":0,\"94\":2,\"96\":105,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8482,8497,8503,8482,8497,8503]}}}}"
+    }
+  },
+  {
+    "_id": "5c2252fd3a022c2004c22670",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "49",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8502],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753352,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.96509664823003,324.6684348664356,288.8759949617751,221.48281625360192,0],\"foodProficiency\":1624.6010631090078,\"actionPoint\":106,\"fullPoint\":109.80000000000001,\"lastRefreshTime\":1545701801,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":88,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":103,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":78,\"90\":10,\"91\":0,\"94\":2,\"96\":105,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8502,8502]}}}}"
+    }
+  },
+  {
+    "_id": "5c209ecfc43fd52960859517",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8463,8458],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641696,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.56509664822994,324.2684348664355,288.47599496177503,221.18281625360194,0],\"foodProficiency\":1612.6010631090078,\"actionPoint\":90,\"fullPoint\":0,\"lastRefreshTime\":1545640301,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":82,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":99,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":75,\"90\":10,\"91\":0,\"94\":2,\"96\":104,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"mission\":{\"missionStatistics\":{\"1104\":{\"1104_1\":3}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8463,8458,8463,8458]}}}}"
+    }
+  },
+  {
+    "_id": "5c209dc5c43fd52960859506",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8457,8472],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641475,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.56509664822994,324.2684348664355,288.47599496177503,221.18281625360194,0],\"foodProficiency\":1609.6010631090078,\"actionPoint\":90,\"fullPoint\":0,\"lastRefreshTime\":1545640301,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":82,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":99,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":75,\"90\":10,\"91\":0,\"94\":2,\"96\":104,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"mission\":{\"missionStatistics\":{\"1104\":{\"1104_1\":2}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8457,8472,8457,8472]}}}}"
+    }
+  },
+  {
+    "_id": "5c209fd5c43fd52960859531",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8474,8453],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545642003,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1478.5056894175123,\"actionPoint\":28.99999999999999,\"fullPoint\":124.9,\"lastRefreshTime\":1545641127,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":25,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":114,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":105,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8474,8453,8474,8453]}}}}"
+    }
+  },
+  {
+    "_id": "5c218746af2af355d8b91e93",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8477,8493],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545701205,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.76509664823,324.46843486643553,288.6759949617751,221.28281625360194,0],\"foodProficiency\":1617.6010631090078,\"actionPoint\":53.84999999999999,\"fullPoint\":129.9,\"lastRefreshTime\":1545641981,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":96,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":101,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":76,\"90\":10,\"91\":0,\"94\":2,\"96\":105,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"mission\":{\"missionStatistics\":{\"1104\":{\"1104_1\":2}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8477,8493,8477,8493]}}}}"
+    }
+  },
+  {
+    "_id": "5c209fb1c43fd5296085952a",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8454,8470],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545641922,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.493421984633,345.8648540815473,244.1829413705087,189.70528710832264,0],\"foodProficiency\":1476.5056894175123,\"actionPoint\":28.99999999999999,\"fullPoint\":124.9,\"lastRefreshTime\":1545641127,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":25,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":97,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":114,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":105,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8454,8470,8454,8470]}}}}"
+    }
+  },
+  {
+    "_id": "5c225234f6d7c74a74673141",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8495,8473],\"makerId\":1}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"1\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753201,\"characterId\":1,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[274.96509664823003,324.6684348664356,288.8759949617751,221.48281625360192,0],\"foodProficiency\":1621.6010631090078,\"actionPoint\":106,\"fullPoint\":109.80000000000001,\"lastRefreshTime\":1545701801,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":88,\"inventoryEquipId\":36,\"inventoryWeaponId\":73,\"inventoryClothingId\":2,\"inventoryBracerId\":115,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":10,\"2\":0,\"8\":46,\"9\":30,\"11\":140,\"12\":100,\"13\":475,\"18\":50,\"20\":50,\"21\":25,\"25\":22,\"28\":38,\"32\":503,\"34\":103,\"35\":150,\"38\":4,\"40\":110,\"43\":25,\"47\":0,\"49\":350,\"50\":2,\"51\":102,\"54\":410,\"60\":105,\"61\":40,\"62\":18,\"63\":31,\"64\":90,\"71\":240,\"72\":1,\"73\":20,\"77\":0,\"81\":6,\"82\":33,\"83\":4,\"84\":0,\"87\":62,\"88\":78,\"90\":10,\"91\":0,\"94\":2,\"96\":105,\"97\":20,\"98\":100,\"100\":0,\"106\":230,\"107\":76,\"108\":15,\"118\":14,\"119\":4,\"120\":4,\"123\":2,\"130\":2,\"143\":8,\"144\":158,\"152\":16,\"153\":1,\"154\":17,\"155\":2,\"156\":10,\"159\":30,\"166\":109,\"180\":20,\"182\":180,\"184\":5,\"186\":20,\"196\":1,\"201\":75,\"205\":60,\"213\":1000,\"217\":310,\"219\":100,\"220\":185,\"221\":900,\"222\":100,\"223\":100,\"224\":100,\"225\":100,\"226\":160,\"227\":100,\"228\":100},\"receiveGifts\":{\"0\":{\"1\":1}},\"lastTime\":{\"1\":1488799123},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8495,8473,8495,8473]}}}}"
+    }
+  },
+  {
+    "_id": "5c22523ff6d7c74a74673142",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8491,8496],\"makerId\":2}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"2\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753182,\"characterId\":2,\"unlocked\":true,\"lvl\":40,\"exp\":0,\"addonProperties\":[253.077635693603,340.35355331877855,251.54041928369722,219.65826188215522,0],\"foodProficiency\":1350.1826868759583,\"actionPoint\":51.95,\"fullPoint\":109.8,\"lastRefreshTime\":1545701884,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":51,\"inventoryEquipId\":3,\"inventoryWeaponId\":100,\"inventoryClothingId\":-1,\"inventoryBracerId\":4,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":50,\"2\":10,\"8\":44,\"9\":26,\"11\":110,\"12\":75,\"13\":550,\"18\":50,\"25\":25,\"28\":38,\"32\":400,\"34\":99,\"35\":170,\"38\":4,\"44\":0,\"46\":0,\"47\":0,\"48\":0,\"49\":350,\"50\":2,\"51\":112,\"54\":370,\"60\":106,\"61\":40,\"62\":15,\"63\":27,\"64\":90,\"71\":190,\"72\":5,\"73\":80,\"77\":0,\"81\":6,\"82\":29,\"83\":4,\"84\":4,\"87\":64,\"88\":78,\"91\":50,\"94\":6,\"96\":104,\"106\":200,\"107\":66,\"108\":15,\"118\":14,\"119\":4,\"123\":2,\"143\":4,\"144\":142,\"152\":16,\"153\":1,\"154\":15,\"155\":1,\"156\":10,\"159\":60,\"166\":109,\"171\":25,\"172\":25,\"180\":20,\"182\":160,\"184\":5,\"186\":20,\"196\":2,\"201\":50,\"202\":20,\"204\":20,\"205\":40,\"206\":20,\"213\":1000,\"217\":200,\"219\":120,\"220\":225,\"221\":1000,\"222\":100,\"223\":100,\"224\":110,\"225\":110,\"226\":150,\"227\":100,\"228\":100},\"receiveGifts\":{},\"lastTime\":{},\"persistentAction\":0}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8491,8496,8491,8496]}}}}"
+    }
+  },
+  {
+    "_id": "5c2252ee3a022c2004c2266f",
+    "url": "http://androidprod.nono.nyanbox.com:8082/food/makeFood",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "49",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"targetFoodIngredientIdList\":[8500],\"makerId\":0}"
+    },
+    "res": {
+      "body": "{\"expired\":0,\"playerDataDelta\":{\"modified\":{\"character\":{\"characters\":{\"0\":{\"cookingAction\":1,\"persistAction\":0,\"persistEndTime\":0,\"cookEndTime\":1545753347,\"characterId\":0,\"unlocked\":1,\"lvl\":40,\"exp\":0,\"addonProperties\":[286.59342198463304,345.96485408154734,244.2829413705087,189.70528710832264,0],\"foodProficiency\":1491.5056894175123,\"actionPoint\":105,\"fullPoint\":129.7,\"lastRefreshTime\":1545753297,\"tiredCnt\":0,\"apGetCnt\":0,\"satisfaction\":0,\"lastEatFoodId\":34,\"inventoryEquipId\":34,\"inventoryWeaponId\":251,\"inventoryClothingId\":1,\"inventoryBracerId\":144,\"gems\":[-1,-1,-1,-1,-1,-1],\"addonFoodGoodAtValues\":{},\"foodBoredValues\":{\"0\":35,\"2\":10,\"8\":44,\"9\":28,\"11\":210,\"12\":100,\"13\":575,\"18\":50,\"20\":50,\"21\":50,\"25\":19,\"28\":56,\"32\":400,\"34\":98,\"35\":180,\"40\":75,\"47\":50,\"49\":450,\"50\":2,\"51\":122,\"54\":430,\"60\":35,\"61\":40,\"62\":15,\"63\":30,\"64\":90,\"71\":180,\"73\":120,\"77\":0,\"79\":0,\"81\":6,\"82\":31,\"84\":4,\"87\":66,\"88\":68,\"91\":50,\"94\":6,\"95\":1,\"96\":107,\"100\":0,\"106\":280,\"107\":74,\"108\":15,\"116\":0,\"118\":12,\"119\":4,\"123\":0,\"129\":10,\"142\":0,\"143\":2,\"144\":148,\"152\":22,\"154\":14,\"155\":2,\"159\":10,\"166\":106,\"171\":100,\"172\":0,\"180\":20,\"182\":140,\"196\":1,\"201\":50,\"205\":40,\"213\":1000,\"217\":190,\"218\":0,\"219\":100,\"220\":225,\"221\":900,\"222\":100,\"223\":100,\"224\":110,\"225\":100,\"226\":160,\"227\":110,\"228\":100},\"receiveGifts\":{},\"lastTime\":{}}}},\"inventory\":{\"foodIngredients\":{}}},\"deleted\":{\"inventory\":{\"foodIngredients\":[8500,8500]}}}}"
+    }
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "5c209911de192c4f68d2ed67",
+    "url": "http://androidprod.nono.nyanbox.com:8082/manufacture/startManufacture",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "406",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"slotId\":2,\"itemList\":[{\"targetId\":-1,\"id\":15000,\"type\":\"InventoryItem\",\"cnt\":0,\"lvl\":1,\"param\":{}},{\"targetId\":-1,\"id\":9003,\"type\":\"InventoryItem\",\"cnt\":0,\"lvl\":1,\"param\":{}},{\"targetId\":-1,\"id\":3000,\"type\":\"InventoryItem\",\"cnt\":0,\"lvl\":1,\"param\":{}},{\"targetId\":-1,\"id\":3000,\"type\":\"InventoryItem\",\"cnt\":0,\"lvl\":1,\"param\":{}},{\"targetId\":-1,\"id\":3000,\"type\":\"InventoryItem\",\"cnt\":0,\"lvl\":1,\"param\":{}}]}"
+    },
+    "res": {
+      "body": "{\"playerDataDelta\":{\"modified\":{\"status\":{\"manufactureSlots\":{\"2\":{\"slotId\":2,\"isInUse\":1,\"endTime\":1545640231}}},\"inventory\":{\"items\":{\"3000\":480,\"9003\":10,\"15000\":32}}},\"deleted\":{}}}"
+    }
+  }
+]

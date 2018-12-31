@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "5c2098b5de192c4f68d2ed5a",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/receiveGift",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "19",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"giftId\":20677189}"
+    },
+    "res": {
+      "body": "{\"gift\":{\"cnt\":6000,\"type\":\"Crystal\"},\"giftCnt\":21,\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":21784,\"hasGift\":0}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098aede192c4f68d2ed58",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/receiveGift",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "19",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"giftId\":21082641}"
+    },
+    "res": {
+      "body": "{\"gift\":{\"cnt\":10000,\"type\":\"Crystal\"},\"giftCnt\":22,\"playerDataDelta\":{\"modified\":{\"status\":{\"crystal\":15784,\"hasGift\":0}},\"deleted\":{}}}"
+    }
+  }
+]

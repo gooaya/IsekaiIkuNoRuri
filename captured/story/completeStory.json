@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "5c2099d86dd2882a18d80dc0",
+    "url": "http://androidprod.nono.nyanbox.com:8082/story/completeStory",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "54",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"storykey\":\"M2_Side2_T005_S01\",\"signals\":[\"default\"]}"
+    },
+    "res": {
+      "body": "{\"playerDataDelta\":{\"modified\":{\"story\":{\"vars\":{\"M2_Side2_T005_S01_End\":1}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2097c4c73d0d5094afbb37",
+    "url": "http://androidprod.nono.nyanbox.com:8082/story/completeStory",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "60",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"storykey\":\"Event_ChristmasEnd_T001\",\"signals\":[\"default\"]}"
+    },
+    "res": {
+      "body": "{\"playerDataDelta\":{\"modified\":{\"story\":{\"strs\":{\"BGM_Base_Intro\":\"\",\"BGM_Base_Loop\":\"BGM_Mood_UnknownWorld2Harp\"},\"vars\":{\"Event_ChristmasEnd_T001_End\":1}}},\"deleted\":{}}}"
+    }
+  }
+]

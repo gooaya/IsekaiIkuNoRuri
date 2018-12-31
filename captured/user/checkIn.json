@@ -1,0 +1,40 @@
+[
+  {
+    "_id": "5c2181a7c8a1695b90be3651",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/checkIn",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "2",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{}"
+    },
+    "res": {
+      "body": "{\"checkInCntThisLoop\":6,\"rewardItem\":{\"id\":20032,\"cnt\":1,\"type\":\"InventoryItem\"},\"weekRewards\":[{\"id\":10050,\"type\":\"InventoryItem\",\"cnt\":10,\"lvl\":1,\"param\":{}},{\"id\":15,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},{\"id\":-1,\"type\":\"Crystal\",\"cnt\":50,\"lvl\":1,\"param\":{}},{\"id\":15002,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}},{\"id\":-1,\"type\":\"Crystal\",\"cnt\":100,\"lvl\":1,\"param\":{}},{\"id\":20032,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}],\"result\":0,\"playerDataDelta\":{\"modified\":{\"status\":{\"checkInCntThisLoop\":6,\"lastCheckInTime\":1545699755,\"checkInCnt\":328,\"canCheck\":0},\"inventory\":{\"items\":{\"20032\":47}}},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c20988ade192c4f68d2ed55",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/checkIn",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "2",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{}"
+    },
+    "res": {
+      "body": "{\"checkInCntThisLoop\":5,\"rewardItem\":{\"cnt\":100,\"type\":\"Crystal\"},\"weekRewards\":[{\"id\":10050,\"type\":\"InventoryItem\",\"cnt\":10,\"lvl\":1,\"param\":{}},{\"id\":15,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},{\"id\":-1,\"type\":\"Crystal\",\"cnt\":50,\"lvl\":1,\"param\":{}},{\"id\":15002,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}},{\"id\":-1,\"type\":\"Crystal\",\"cnt\":100,\"lvl\":1,\"param\":{}},{\"id\":20032,\"type\":\"InventoryItem\",\"cnt\":1,\"lvl\":1,\"param\":{}}],\"result\":0,\"playerDataDelta\":{\"modified\":{\"status\":{\"checkInCntThisLoop\":5,\"lastCheckInTime\":1545640076,\"checkInCnt\":327,\"canCheck\":0,\"crystal\":5784}},\"deleted\":{}}}"
+    }
+  }
+]

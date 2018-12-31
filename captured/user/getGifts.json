@@ -1,0 +1,895 @@
+[
+  {
+    "_id": "5c225223f6d7c74a7467313f",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098b0de192c4f68d2ed59",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":22,\"gifts\":[{\"giftId\":20677189,\"ifrom\":202,\"from\":\"来自调查局的专属补偿\",\"item\":{\"id\":1,\"type\":\"Crystal\",\"cnt\":6000,\"lvl\":1,\"param\":{}},\"createTime\":1545013986,\"status\":0},{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0},{\"giftId\":9865945,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506374873,\"status\":0},{\"giftId\":9862891,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506349257,\"status\":0},{\"giftId\":9842707,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506096088,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2186cfaf2af355d8b91e8e",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209a0b6dd2882a18d80dc3",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209df6c43fd5296085950a",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209dd8c43fd52960859508",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209a626dd2882a18d80dcb",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2251fbf6d7c74a74673139",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2099f66dd2882a18d80dc2",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2099ea6dd2882a18d80dc1",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209933de192c4f68d2ed6c",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2188cde950c208b4844710",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098b5de192c4f68d2ed5b",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0},{\"giftId\":9865945,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506374873,\"status\":0},{\"giftId\":9862891,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506349257,\"status\":0},{\"giftId\":9842707,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506096088,\"status\":0},{\"giftId\":9484696,\"ifrom\":0,\"from\":\"来自系统的邮件\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1505962674,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209a266dd2882a18d80dc8",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098c0de192c4f68d2ed5f",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "23",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":20,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":4660654,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493028131,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209f29c43fd5296085951d",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098b7de192c4f68d2ed5c",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":5,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":9099130,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505916407,\"status\":0},{\"giftId\":9090579,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505817836,\"status\":0},{\"giftId\":9090418,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505815707,\"status\":0},{\"giftId\":8708124,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505607311,\"status\":0},{\"giftId\":8694991,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505461254,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098c4de192c4f68d2ed61",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "23",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":20,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":4660654,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493028131,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098bbde192c4f68d2ed5e",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "23",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":15,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":8258078,\"ifrom\":568,\"from\":\"新版本登录礼包\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":5,\"lvl\":1,\"param\":{}},\"createTime\":1504389304,\"status\":0},{\"giftId\":4718515,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493800219,\"status\":0},{\"giftId\":4704172,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493625727,\"status\":0},{\"giftId\":4691822,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493445890,\"status\":0},{\"giftId\":4680599,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493293601,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209f7fc43fd52960859520",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098bade192c4f68d2ed5d",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "23",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":10,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":8689099,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505381588,\"status\":0},{\"giftId\":8309185,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505165462,\"status\":0},{\"giftId\":8288265,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1504926723,\"status\":0},{\"giftId\":8276922,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1504797216,\"status\":0},{\"giftId\":8275237,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1504774855,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209be62adc0f56b0455d45",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c21844ca1a2955830df80cf",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2097dbc73d0d5094afbb38",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":23,\"gifts\":[{\"giftId\":21082641,\"ifrom\":202,\"from\":\"来自调查局的专属补偿\",\"item\":{\"id\":1,\"type\":\"Crystal\",\"cnt\":10000,\"lvl\":1,\"param\":{}},\"createTime\":1545634260,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209aa56dd2882a18d80dce",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209ee0c43fd5296085951a",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098c2de192c4f68d2ed60",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "23",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":15,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":8258078,\"ifrom\":568,\"from\":\"新版本登录礼包\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":5,\"lvl\":1,\"param\":{}},\"createTime\":1504389304,\"status\":0},{\"giftId\":4718515,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493800219,\"status\":0},{\"giftId\":4704172,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493625727,\"status\":0},{\"giftId\":4691822,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493445890,\"status\":0},{\"giftId\":4680599,\"ifrom\":404,\"from\":\"春之祭典登陆奖励\",\"item\":{\"id\":1,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1493293601,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2182b6641f4328640c8fc1",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209b076dd2882a18d80dd1",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c209f8ac43fd52960859522",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2181aac8a1695b90be3652",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c22520ef6d7c74a7467313d",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2182ee641f4328640c8fc2",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218388a1a2955830df80ca",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c21845ba1a2955830df80d1",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218403a1a2955830df80cc",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c21854a198755628cd8fecd",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0},{\"giftId\":9865945,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506374873,\"status\":0},{\"giftId\":9862891,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506349257,\"status\":0},{\"giftId\":9842707,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506096088,\"status\":0},{\"giftId\":9484696,\"ifrom\":0,\"from\":\"来自系统的邮件\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1505962674,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218513198755628cd8fec4",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2187ee2b867545484bdfaa",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2182981adae43e9c810d71",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218a74e950c208b4844731",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0},{\"giftId\":9865945,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506374873,\"status\":0},{\"giftId\":9862891,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506349257,\"status\":0},{\"giftId\":9842707,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506096088,\"status\":0},{\"giftId\":9484696,\"ifrom\":0,\"from\":\"来自系统的邮件\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1505962674,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218a67e950c208b484472f",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0},{\"giftId\":9865945,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506374873,\"status\":0},{\"giftId\":9862891,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506349257,\"status\":0},{\"giftId\":9842707,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506096088,\"status\":0},{\"giftId\":9484696,\"ifrom\":0,\"from\":\"来自系统的邮件\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":1,\"lvl\":1,\"param\":{}},\"createTime\":1505962674,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218a7ee950c208b4844732",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":5,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":9099130,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505916407,\"status\":0},{\"giftId\":9090579,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505817836,\"status\":0},{\"giftId\":9090418,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505815707,\"status\":0},{\"giftId\":8708124,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505607311,\"status\":0},{\"giftId\":8694991,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505461254,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c218a84e950c208b4844733",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "23",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":10,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":8689099,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505381588,\"status\":0},{\"giftId\":8309185,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1505165462,\"status\":0},{\"giftId\":8288265,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1504926723,\"status\":0},{\"giftId\":8276922,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1504797216,\"status\":0},{\"giftId\":8275237,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1504774855,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c22514292c021460c7dec83",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2098acde192c4f68d2ed57",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":5}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":23,\"gifts\":[{\"giftId\":21082641,\"ifrom\":202,\"from\":\"来自调查局的专属补偿\",\"item\":{\"id\":1,\"type\":\"Crystal\",\"cnt\":10000,\"lvl\":1,\"param\":{}},\"createTime\":1545634260,\"status\":0},{\"giftId\":20677189,\"ifrom\":202,\"from\":\"来自调查局的专属补偿\",\"item\":{\"id\":1,\"type\":\"Crystal\",\"cnt\":6000,\"lvl\":1,\"param\":{}},\"createTime\":1545013986,\"status\":0},{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0},{\"giftId\":9865945,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506374873,\"status\":0},{\"giftId\":9862891,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506349257,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  },
+  {
+    "_id": "5c2251b9f6d7c74a74673134",
+    "url": "http://androidprod.nono.nyanbox.com:8082/user/getGifts",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "22",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"offset\":0,\"count\":1}"
+    },
+    "res": {
+      "body": "{\"giftCnt\":21,\"gifts\":[{\"giftId\":10238311,\"ifrom\":521,\"from\":\"登录奖励（日常）\",\"item\":{\"id\":4,\"type\":\"FoodTemplate\",\"cnt\":2,\"lvl\":1,\"param\":{}},\"createTime\":1506514494,\"status\":0}],\"playerDataDelta\":{\"modified\":{},\"deleted\":{}}}"
+    }
+  }
+]

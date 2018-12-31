@@ -1,0 +1,21 @@
+[
+  {
+    "_id": "5c20991fde192c4f68d2ed68",
+    "url": "http://androidprod.nono.nyanbox.com:8082/manufacture/finishManufacture",
+    "req": {
+      "headers": {
+        "content-type": "application/json",
+        "x-unity-version": "5.4.3p4",
+        "content-length": "12",
+        "user-agent": "Dalvik/2.1.0 (Linux; U; Android 7.0)",
+        "host": "androidprod.nono.nyanbox.com:8082",
+        "connection": "Keep-Alive",
+        "accept-encoding": "gzip"
+      },
+      "body": "{\"slotId\":2}"
+    },
+    "res": {
+      "body": "{\"itemType\":0,\"targetId\":37,\"playerDataDelta\":{\"modified\":{\"equipInventory\":{\"gems\":{\"37\":{\"lvl\":1,\"loadedWeaponId\":-1,\"loadedEquipId\":-1,\"loadedBracerId\":-1,\"tc\":0,\"ml\":50,\"itemLvl\":50,\"gemQuality\":0,\"gemSize\":0,\"gemEx\":0,\"gemType\":3,\"affixIds\":[1020,1024,1024],\"gemElementCnt\":1,\"cap\":9.142857142857142,\"elementValues\":[0,0,0,9.142857142857142],\"name\":\"破碎的大地碎块\",\"id\":37}}},\"status\":{\"manufactureSlots\":{\"2\":{\"slotId\":2,\"isInUse\":false,\"endTime\":1545640231}}}},\"deleted\":{}}}"
+    }
+  }
+]
