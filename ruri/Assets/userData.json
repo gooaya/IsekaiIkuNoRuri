@@ -494,7 +494,7 @@
             89104
           ],
           "getTime": 1505313701,
-          "exp": 4101
+          "exp": 5301
         },
         "24": {
           "id": 24,
@@ -5675,7 +5675,7 @@
           "skillLvl": 1,
           "loadedCharacterId": -1,
           "gems": [
-            -1,
+            30,
             -1,
             -1,
             -1
@@ -7851,7 +7851,7 @@
           ],
           "loadedBracerId": -1,
           "loadedEquipId": -1,
-          "loadedWeaponId": -1
+          "loadedWeaponId": 264
         },
         "31": {
           "id": "31",
@@ -9304,7 +9304,7 @@
         "123": {
           "id": 123,
           "dbId": 3021,
-          "lvl": 32,
+          "lvl": 33,
           "evolveLvl": 0,
           "spriteLvl": 0,
           "corePassiveSkillLvl": 1,
@@ -9327,7 +9327,7 @@
             89114
           ],
           "getTime": 1505313616,
-          "exp": 4085
+          "exp": 812
         },
         "124": {
           "id": 124,
@@ -12290,7 +12290,7 @@
         },
         "350000": {
           "id": 350000,
-          "cnt": 300
+          "cnt": 301
         },
         "360000": {
           "id": 360000,
@@ -12334,7 +12334,7 @@
         },
         "520000": {
           "id": 520000,
-          "cnt": 221
+          "cnt": 223
         },
         "550000": {
           "id": 550000,
@@ -12402,7 +12402,7 @@
         },
         "890000": {
           "id": 890000,
-          "cnt": 228
+          "cnt": 230
         },
         "910000": {
           "id": 910000,
@@ -12510,7 +12510,7 @@
         },
         "1670000": {
           "id": 1670000,
-          "cnt": 83
+          "cnt": 84
         },
         "1720000": {
           "id": 1720000,
@@ -15286,8 +15286,8 @@
     "status": {
       "lvl": 2,
       "exp": 0,
-      "gold": 5000015,
-      "crystal": 2364,
+      "gold": 5002115,
+      "crystal": 2414,
       "heart": 0,
       "honor": 0,
       "canCheck": 0,
@@ -15297,7 +15297,7 @@
       "checkInCnt": 328,
       "checkInCntThisLoop": 6,
       "lastCheckInTime": 1545699755,
-      "lastOnlineTime": 1545700915,
+      "lastOnlineTime": 1545701996,
       "rechargedRMB": 0,
       "manufactureSlots": {
         "0": {
@@ -15353,19 +15353,19 @@
         },
         "1104": {
           "missionId": 1104,
-          "completed": 0
+          "completed": 1
         },
         "1106": {
           "missionId": 1106,
-          "completed": 0
+          "completed": 1
         },
         "1107": {
           "missionId": 1107,
-          "completed": 0
+          "completed": 1
         },
         "1110": {
           "missionId": 1110,
-          "completed": 0
+          "completed": 1
         },
         "1202": {
           "missionId": 1202,
@@ -15869,7 +15869,7 @@
         },
         "2406": {
           "missionId": 2406,
-          "completed": 0
+          "completed": 1
         },
         "2514": {
           "missionId": 2514,
@@ -16181,11 +16181,11 @@
         },
         "5103": {
           "missionId": 5103,
-          "completed": 0
+          "completed": 1
         },
         "5106": {
           "missionId": 5106,
-          "completed": 0
+          "completed": 1
         },
         "5202": {
           "missionId": 5202,
@@ -16212,18 +16212,10 @@
       "missionStatistics": {
         "1101": {},
         "1102": {},
-        "1104": {
-          "1104_1": 1
-        },
-        "1106": {
-          "1106_1": 0
-        },
-        "1107": {
-          "1107_1": 0
-        },
-        "1110": {
-          "1110_1": 0
-        },
+        "1104": {},
+        "1106": {},
+        "1107": {},
+        "1110": {},
         "1202": {},
         "2200": {},
         "2201": {},
@@ -16349,9 +16341,7 @@
         "2401": {},
         "2403": {},
         "2405": {},
-        "2406": {
-          "2406_1": 3
-        },
+        "2406": {},
         "2514": {},
         "2515": {},
         "2516": {},
@@ -16517,12 +16507,8 @@
         "2811": {},
         "3101": {},
         "3102": {},
-        "5103": {
-          "5103_1": 0
-        },
-        "5106": {
-          "5106_1": 0
-        },
+        "5103": {},
+        "5106": {},
         "5202": {},
         "50010": {
           "50010_1": 1
@@ -17461,32 +17447,32 @@
         "10005": {
           "refreshTime": 1545753600,
           "missionIndex": 1,
-          "completed": 0
+          "completed": 1
         },
         "10006": {
           "refreshTime": 1545753600,
           "missionIndex": 0,
-          "completed": 0
+          "completed": 1
         },
         "10007": {
           "refreshTime": 1545753600,
           "missionIndex": 0,
-          "completed": 0
+          "completed": 1
         },
         "10008": {
           "refreshTime": 1545753600,
           "missionIndex": 2,
-          "completed": 0
+          "completed": 1
         },
         "10009": {
           "refreshTime": 1545753600,
           "missionIndex": 1,
-          "completed": 0
+          "completed": 1
         },
         "10010": {
           "refreshTime": 1545753600,
           "missionIndex": 2,
-          "completed": 0
+          "completed": 1
         },
         "10011": {
           "refreshTime": 1545753600,
@@ -17496,7 +17482,7 @@
         "10012": {
           "refreshTime": 1545753600,
           "missionIndex": 0,
-          "completed": 0
+          "completed": 1
         },
         "10013": {
           "refreshTime": 1545753600,
@@ -17960,7 +17946,7 @@
         "4000": 2968,
         "4001": 706,
         "4002": 84,
-        "4100": 3165,
+        "4100": 3147,
         "4101": 422,
         "4102": 86,
         "4200": 2051,
@@ -18175,96 +18161,6 @@
       "dailyUseCnt": {},
       "items_nonStack": {},
       "foods": {
-        "4129": {
-          "foodId": 96,
-          "expiredTime": 1545814462,
-          "actualStar": 5,
-          "makerId": 2,
-          "quality": 82,
-          "addValue": [
-            0.2,
-            0,
-            0,
-            0,
-            0
-          ],
-          "id": 4129
-        },
-        "4131": {
-          "foodId": 96,
-          "expiredTime": 1545814687,
-          "actualStar": 5,
-          "makerId": 2,
-          "quality": 99,
-          "addValue": [
-            0.2,
-            0,
-            0,
-            0,
-            0
-          ],
-          "id": 4131
-        },
-        "4133": {
-          "foodId": 51,
-          "expiredTime": 1545814693,
-          "actualStar": 5,
-          "makerId": 0,
-          "quality": 83,
-          "addValue": [
-            0.1,
-            0,
-            0,
-            0,
-            0
-          ],
-          "id": 4133
-        },
-        "4135": {
-          "foodId": 51,
-          "expiredTime": 1545814735,
-          "actualStar": 5,
-          "makerId": 2,
-          "quality": 98,
-          "addValue": [
-            0.1,
-            0,
-            0,
-            0,
-            0
-          ],
-          "id": 4135
-        },
-        "4137": {
-          "foodId": 34,
-          "expiredTime": 1545901281,
-          "actualStar": 5,
-          "makerId": 0,
-          "quality": 81,
-          "addValue": [
-            0.1,
-            0.1,
-            0.1,
-            0,
-            0
-          ],
-          "id": 4137
-        },
-        "4138": {
-          "foodId": 88,
-          "expiredTime": 1545872749,
-          "actualStar": 5,
-          "makerId": 0,
-          "quality": 80,
-          "addValue": [
-            0.1,
-            0.1,
-            0.1,
-            0.1,
-            0
-          ],
-          "id": 4138
-        },
         "4139": {
           "foodId": 51,
           "expiredTime": 1545872751,
@@ -18280,12 +18176,12 @@
           ],
           "id": 4139
         },
-        "4140": {
+        "4144": {
           "foodId": 51,
-          "expiredTime": 1545872757,
+          "expiredTime": 1545874289,
           "actualStar": 5,
-          "makerId": 1,
-          "quality": 80,
+          "makerId": 2,
+          "quality": 88,
           "addValue": [
             0.1,
             0,
@@ -18293,21 +18189,22 @@
             0,
             0
           ],
-          "id": 4140
+          "id": 4144
         },
-        "4141": {
-          "foodId": 217,
-          "expiredTime": 1545844422,
-          "actualStar": 20,
-          "makerId": 1,
+        "4147": {
+          "foodId": 51,
+          "expiredTime": 1545874426,
+          "actualStar": 5,
+          "makerId": 2,
+          "quality": 96,
           "addValue": [
-            1.5,
-            1.5,
-            1.5,
-            1
+            0.1,
+            0,
+            0,
+            0,
+            0
           ],
-          "quality": 60,
-          "id": 4141
+          "id": 4147
         }
       },
       "foodIngredients": {
@@ -18325,54 +18222,12 @@
           "actualStar": 1,
           "quality": 60
         },
-        "8475": {
-          "id": 8475,
-          "foodIngredientId": 19,
-          "expiredTime": 1545900575,
-          "actualStar": 1,
-          "quality": 71
-        },
-        "8476": {
-          "id": 8476,
-          "foodIngredientId": 19,
-          "expiredTime": 1545900575,
-          "actualStar": 1,
-          "quality": 66
-        },
-        "8477": {
-          "id": 8477,
-          "foodIngredientId": 19,
-          "expiredTime": 1545900575,
-          "actualStar": 1,
-          "quality": 88
-        },
-        "8479": {
-          "id": 8479,
-          "foodIngredientId": 19,
-          "expiredTime": 1545900575,
-          "actualStar": 1,
-          "quality": 8
-        },
-        "8480": {
-          "id": 8480,
-          "foodIngredientId": 19,
-          "expiredTime": 1545900575,
-          "actualStar": 1,
-          "quality": 46
-        },
         "8482": {
           "id": 8482,
           "foodIngredientId": 33,
           "expiredTime": 1546045374,
           "actualStar": 1,
           "quality": 79
-        },
-        "8483": {
-          "id": 8483,
-          "foodIngredientId": 36,
-          "expiredTime": 1546045380,
-          "actualStar": 1,
-          "quality": 16
         },
         "8484": {
           "id": 8484,
@@ -18381,20 +18236,6 @@
           "actualStar": 1,
           "quality": 23
         },
-        "8487": {
-          "id": 8487,
-          "foodIngredientId": 6,
-          "expiredTime": 1545959052,
-          "actualStar": 1,
-          "quality": 81
-        },
-        "8488": {
-          "id": 8488,
-          "foodIngredientId": 6,
-          "expiredTime": 1545959052,
-          "actualStar": 1,
-          "quality": 97
-        },
         "8489": {
           "id": 8489,
           "foodIngredientId": 6,
@@ -18402,33 +18243,12 @@
           "actualStar": 1,
           "quality": 48
         },
-        "8490": {
-          "id": 8490,
-          "foodIngredientId": 6,
-          "expiredTime": 1545959052,
-          "actualStar": 1,
-          "quality": 11
-        },
         "8491": {
           "id": 8491,
           "foodIngredientId": 6,
           "expiredTime": 1545959052,
           "actualStar": 1,
           "quality": 83
-        },
-        "8493": {
-          "id": 8493,
-          "foodIngredientId": 6,
-          "expiredTime": 1545959052,
-          "actualStar": 1,
-          "quality": 61
-        },
-        "8494": {
-          "id": 8494,
-          "foodIngredientId": 6,
-          "expiredTime": 1545959052,
-          "actualStar": 1,
-          "quality": 37
         },
         "8495": {
           "id": 8495,
@@ -18485,7 +18305,7 @@
         },
         "8": {
           "id": 8,
-          "name": "���豆腐",
+          "name": "水豆腐",
           "foodIngredientId": 1007,
           "foodId": -1,
           "quality": 48,
@@ -19513,14 +19333,14 @@
             189.70528710832264,
             0
           ],
-          "foodProficiency": 1483.5056894175123,
-          "actionPoint": 45.4,
-          "fullPoint": 0,
-          "lastRefreshTime": 1545700407,
+          "foodProficiency": 1488.5056894175123,
+          "actionPoint": 50.65,
+          "fullPoint": 99.80000000000001,
+          "lastRefreshTime": 1545701697,
           "tiredCnt": 0,
           "apGetCnt": 0,
           "satisfaction": 0,
-          "lastEatFoodId": 25,
+          "lastEatFoodId": 51,
           "inventoryEquipId": 34,
           "inventoryWeaponId": 251,
           "inventoryClothingId": 1,
@@ -19554,7 +19374,7 @@
             "47": 50,
             "49": 450,
             "50": 2,
-            "51": 114,
+            "51": 116,
             "54": 430,
             "60": 35,
             "61": 40,
@@ -19573,7 +19393,7 @@
             "91": 50,
             "94": 6,
             "95": 1,
-            "96": 105,
+            "96": 107,
             "100": 0,
             "106": 280,
             "107": 74,
@@ -19625,20 +19445,20 @@
           "lvl": 40,
           "exp": 0,
           "addonProperties": [
-            274.76509664823,
-            324.46843486643553,
-            288.6759949617751,
-            221.28281625360194,
+            274.96509664823003,
+            324.6684348664356,
+            288.8759949617751,
+            221.48281625360192,
             0
           ],
-          "foodProficiency": 1617.6010631090078,
-          "actionPoint": 53.84999999999999,
-          "fullPoint": 129.9,
-          "lastRefreshTime": 1545641981,
+          "foodProficiency": 1621.6010631090078,
+          "actionPoint": 106,
+          "fullPoint": 109.80000000000001,
+          "lastRefreshTime": 1545701801,
           "tiredCnt": 0,
           "apGetCnt": 0,
           "satisfaction": 0,
-          "lastEatFoodId": 96,
+          "lastEatFoodId": 88,
           "inventoryEquipId": 36,
           "inventoryWeaponId": 73,
           "inventoryClothingId": 2,
@@ -19666,7 +19486,7 @@
             "25": 22,
             "28": 38,
             "32": 503,
-            "34": 101,
+            "34": 103,
             "35": 150,
             "38": 4,
             "40": 110,
@@ -19690,7 +19510,7 @@
             "83": 4,
             "84": 0,
             "87": 62,
-            "88": 76,
+            "88": 78,
             "90": 10,
             "91": 0,
             "94": 2,
@@ -19755,20 +19575,20 @@
           "lvl": 40,
           "exp": 0,
           "addonProperties": [
-            252.97763569360302,
-            340.25355331877853,
-            251.44041928369722,
-            219.55826188215522,
+            253.077635693603,
+            340.35355331877855,
+            251.54041928369722,
+            219.65826188215522,
             0
           ],
-          "foodProficiency": 1348.1826868759583,
-          "actionPoint": 45.4,
-          "fullPoint": 0,
-          "lastRefreshTime": 1545700414,
+          "foodProficiency": 1350.1826868759583,
+          "actionPoint": 51.95,
+          "fullPoint": 109.8,
+          "lastRefreshTime": 1545701884,
           "tiredCnt": 0,
           "apGetCnt": 0,
           "satisfaction": 0,
-          "lastEatFoodId": 96,
+          "lastEatFoodId": 51,
           "inventoryEquipId": 3,
           "inventoryWeaponId": 100,
           "inventoryClothingId": -1,
@@ -19803,7 +19623,7 @@
             "48": 0,
             "49": 350,
             "50": 2,
-            "51": 108,
+            "51": 112,
             "54": 370,
             "60": 106,
             "61": 40,
@@ -19819,7 +19639,7 @@
             "83": 4,
             "84": 4,
             "87": 64,
-            "88": 77,
+            "88": 78,
             "91": 50,
             "94": 6,
             "96": 104,
@@ -19837,7 +19657,7 @@
             "155": 1,
             "156": 10,
             "159": 60,
-            "166": 104,
+            "166": 109,
             "171": 25,
             "172": 25,
             "180": 20,
@@ -19851,7 +19671,7 @@
             "205": 40,
             "206": 20,
             "213": 1000,
-            "217": 190,
+            "217": 200,
             "219": 120,
             "220": 225,
             "221": 1000,
@@ -19912,7 +19732,7 @@
         "200": {
           "pairId": 200,
           "linkValue": 5000,
-          "curLinkValue": 2,
+          "curLinkValue": 7.5,
           "heartCnt": 3,
           "resetCnt": 0,
           "normalTalentCnt": 3,
@@ -19952,7 +19772,7 @@
         "201": {
           "pairId": 201,
           "linkValue": 5000,
-          "curLinkValue": 206.5,
+          "curLinkValue": 207.5,
           "heartCnt": 3,
           "resetCnt": 0,
           "normalTalentCnt": 1,
@@ -19986,5 +19806,5 @@
       }
     }
   },
-  "serverTime": 1545701048
+  "serverTime": 1545752883
 }
