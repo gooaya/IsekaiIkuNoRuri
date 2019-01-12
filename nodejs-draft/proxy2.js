@@ -95,7 +95,7 @@ async function h2144(req, res) {
   if (req.url.startsWith("http://trace2144.2144.cn/__beacon_sdk.gif")) {
     res.writeHead(200, { "Content-Type": "image/gif" });
     res.end();
-    return;
+    return true;
   }
   /*
   var options = {
