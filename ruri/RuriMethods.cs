@@ -7,7 +7,7 @@ namespace Ruri
     public class User
     {
         private readonly Ruri ruri;
-        string UserData
+        JObject UserData
         {
             get
             {
@@ -25,7 +25,7 @@ namespace Ruri
         }
         public string SyncData(string param)
         {
-            return this.UserData;
+            return this.UserData.ToString(Formatting.None); 
         }
         public string CheckStatus(string param)
         {
@@ -39,7 +39,7 @@ namespace Ruri
     public class Account
     {
         private readonly Ruri ruri;
-        string UserData
+        JObject UserData
         {
             get
             {
@@ -69,7 +69,7 @@ namespace Ruri
     public class Battle
     {
         private readonly Ruri ruri;
-        string UserData
+        JObject UserData
         {
             get
             {
@@ -102,14 +102,26 @@ namespace Ruri
     }
     public class Ruri
     {
-        public string UserData { get; set; }
+        public JObject UserData { get; set; }
+        public JObject ServerData { get; set; }
 
-        public Ruri(string userData = "{}")
+        public Ruri(string data)
         {
-            this.UserData = userData;
+            JObject json = JObject.Parse(data);
+
+            this.UserData = (JObject)json["userData"];
+            this.ServerData = (JObject)json["serverData"];
             this.User = new User(this);
             this.Account = new Account(this);
             this.Battle = new Battle(this);
+        }
+        public string DataSnapshot()
+        {
+            JObject data = new JObject();
+            data["userData"] = this.UserData;
+            data["serverData"] = this.ServerData;
+            data["version"] = "0.0.2";
+            return data.ToString(Formatting.Indented);
         }
         public User User { get; }
         public Account Account { get; }

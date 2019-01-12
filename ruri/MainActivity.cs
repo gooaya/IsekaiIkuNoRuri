@@ -24,7 +24,7 @@ namespace ruri
 
             FindViewById<Switch>(Resource.Id.switchBeacon).CheckedChange += (o, e) =>
             {
-                if(e.IsChecked)
+                if (e.IsChecked)
                     this.serviceConnection?.Start();
                 else
                     this.serviceConnection?.Stop();
@@ -40,12 +40,19 @@ namespace ruri
             Intent serviceToStart = new Intent(this, typeof(ProxyService));
             BindService(serviceToStart, this.serviceConnection, Bind.AutoCreate);
         }
+        protected override void OnStop()
+        {
+            base.OnStop();
+            this.serviceConnection?.Save();
+        }
     }
 
     [Service]
     [IntentFilter(new String[] { "com.xamarin.ProxyService" })]
     public class ProxyService : Service
     {
+        string _userDataPath;
+
         static readonly ProxyController controller = new ProxyController();
         static readonly string TAG = typeof(ProxyService).FullName;
         public IBinder Binder { get; private set; }
@@ -58,9 +65,19 @@ namespace ruri
 
             if (!controller.Inited)
             {
-                using (StreamReader sr = new StreamReader(this.Assets.Open("userData.json")))
+                _userDataPath = Path.Combine(ApplicationContext.GetExternalFilesDir(null).Path, "userData-0.7.8.json");
+                if (!File.Exists(_userDataPath))
                 {
-                    controller.Init(sr.ReadToEnd());
+                    using (StreamReader sr = new StreamReader(this.Assets.Open("userData.json")))
+                    {
+                        // File.WriteAllText(_userDataPath, @"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""0.0.2""}");
+                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""0.0.2""}");
+                    }
+                }
+                else
+                {
+                    string userData = File.ReadAllText(_userDataPath);
+                    controller.Init(userData);
                 }
             }
         }
@@ -83,6 +100,11 @@ namespace ruri
         {
             controller.Stop();
         }
+
+        public void Save()
+        {
+            File.WriteAllText(_userDataPath, controller.DataSnapshot());
+        }
     }
 
     public class ProxyBinder : Binder
@@ -100,6 +122,11 @@ namespace ruri
         public void Stop()
         {
             service?.Stop();
+        }
+
+        internal void Save()
+        {
+            service?.Save();
         }
     }
 
@@ -163,6 +190,14 @@ namespace ruri
             if (IsConnected)
             {
                 Binder?.Stop();
+            }
+        }
+
+        public void Save()
+        {
+            if (IsConnected)
+            {
+                Binder.Save();
             }
         }
     }

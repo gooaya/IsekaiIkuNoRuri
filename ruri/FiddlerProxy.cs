@@ -19,7 +19,6 @@ namespace FiddlerCore.NetCore
     {
         ushort iPort = 8080;
         FiddlerCoreStartupSettings startupSettings;
-        internal string userData;
         Ruri.Ruri ruri;
 
         public ProxyController()
@@ -50,6 +49,10 @@ namespace FiddlerCore.NetCore
         public void Init(string userData)
         {
             ruri = new Ruri.Ruri(userData);
+        }
+        public string DataSnapshot()
+        {
+            return this.ruri?.DataSnapshot();
         }
         private void OnRequest(Session oS)
         {
