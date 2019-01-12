@@ -1,0 +1,14 @@
+{
+  "name": "ruri",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon proxy2.js"
+  },
+  "dependencies": {
+    "http-proxy": "^1.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
+  }
+}
