@@ -45,6 +45,11 @@ namespace ruri
             base.OnStop();
             this.serviceConnection?.Save();
         }
+        protected override void OnDestroy()
+        {
+            base.OnDestroy();
+            this.serviceConnection?.Save();
+        }
     }
 
     [Service]

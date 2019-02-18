@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading;
+using System.Net;
 
 using Fiddler;
 using Ruri;
@@ -54,6 +55,18 @@ namespace FiddlerCore.NetCore
         {
             return this.ruri?.DataSnapshot();
         }
+        private Dictionary<string, string> ParseQueryString(string qs)
+        {
+            var l = qs.Split("&");
+            var param = new Dictionary<string, string>();
+            foreach (var i in l)
+            {
+                var pair = i.Split("=");
+                param.Add(pair[0], pair[1]);
+                var foo = param["uid"];
+            }
+            return param;
+        }
         private void OnRequest(Session oS)
         {
             FiddlerApplication.Log.LogFormat("{0} {1}", oS.RequestMethod, oS.fullUrl);
@@ -62,7 +75,7 @@ namespace FiddlerCore.NetCore
                 oS.utilCreateResponseAndBypassServer();
                 oS.oResponse.headers.SetStatus(200, "Ok");
                 oS.oResponse["Content-Type"] = "application/json; charset=UTF-8";
-                oS.utilSetResponseBody(@"[{""id"":""397"",""domain"":""androidprod.nono.nyanbox.com"",""name"":""test"",""utcOffset"":28800,""downloadLink"":""http://localhost/nono/nono_60112.apk"",""curVersion"":""0.7.8"",""minVersion"":""0.7.8"",""noticeUrl"":""http://notice.nyanbox.com:3300/"",""userTermsUrl"":""http://notice.nyanbox.com:3300/""}]");
+                oS.utilSetResponseBody(@"[{""id"":""397"",""domain"":""androidprod.nono.nyanbox.com"",""name"":""test"",""utcOffset"":28800,""downloadLink"":""http://localhost/nono/nono_60112.apk"",""curVersion"":""0.7.8"",""minVersion"":""0.7.8"",""noticeUrl"":""https://github.com/gooaya/IsekaiIkuNoRuri/releases"",""userTermsUrl"":""http://localhost:80/""}]");
                 return;
             }
             if (oS.fullUrl.StartsWith("http://as1.nono.nyanbox.com:8089/u8server/user/getToken"))
@@ -103,6 +116,16 @@ namespace FiddlerCore.NetCore
                 oS.oResponse["Content-Type"] = "application/x-www-form-urlencoded; charset=utf-8";
                 return;
             }
+            if (oS.fullUrl== "http://mapi.2144.cn/user/autologin")
+            {
+                var param = ParseQueryString(System.Text.Encoding.UTF8.GetString(oS.RequestBody));
+                if (param["appkey"] != "pcqyDyCTHCFmXEQD") return;
+                oS.utilCreateResponseAndBypassServer();
+                oS.oResponse.headers.SetStatus(200, "Ok");
+                oS.oResponse["Content-Type"] = "application/json; charset=utf-8";
+                oS.utilSetResponseBody(@"{""status"":""success"",""uid"":"""+param["uid"]+@""",""username"":""ruri"",""usertoken"":"""+param["usertoken"]+ @""",""usertype"":4,""framework"":0,""loginauth"":""ffffffffffffffffffffffffffffffffffffffff""}");
+                return;
+            }
             if (oS.host == "androidprod.nono.nyanbox.com:8082")
             {
                 try
@@ -137,7 +160,31 @@ namespace FiddlerCore.NetCore
                             response = ruri.Battle.SubmitBattleData(param);
                         if (methodName == "getGlobalBuff")
                             response = ruri.Battle.GetGlobalBuff(param);
+                    }
+                    if (className == "story")
+                    {
+                        if (methodName == "completeStory")
+                            response = ruri.Story.CompleteStory(param);
+                    }
+                    if(className== "character")
+                    {
+                        if(methodName== "loadWeapon")
+                            response = ruri.Character.LoadWeapon(param);
+                        if (methodName == "loadEquip")
+                            response = ruri.Character.LoadEquip(param);
+                        if (methodName == "loadBracer")
+                            response = ruri.Character.LoadBracer(param);
+                    }
+                    if (className == "food")
+                    {
+                        if(methodName=="eatFood")
+                            response = ruri.Food.EatFood(param);
 
+                    }
+                    if (className == "present")
+                    {
+                        if(methodName== "givePresentItem")
+                            response = ruri.Present.GivePresentItem(param);
                     }
                     oS.utilCreateResponseAndBypassServer();
                     if (response != null)
