@@ -63,7 +63,6 @@ namespace FiddlerCore.NetCore
             {
                 var pair = i.Split("=");
                 param.Add(pair[0], pair[1]);
-                var foo = param["uid"];
             }
             return param;
         }
@@ -116,14 +115,16 @@ namespace FiddlerCore.NetCore
                 oS.oResponse["Content-Type"] = "application/x-www-form-urlencoded; charset=utf-8";
                 return;
             }
-            if (oS.fullUrl== "http://mapi.2144.cn/user/autologin")
+            if (oS.fullUrl== "http://mapi.2144.cn/user/autologin" || oS.fullUrl == "http://mapi.2144.cn/user/login")
             {
                 var param = ParseQueryString(System.Text.Encoding.UTF8.GetString(oS.RequestBody));
                 if (param["appkey"] != "pcqyDyCTHCFmXEQD") return;
                 oS.utilCreateResponseAndBypassServer();
                 oS.oResponse.headers.SetStatus(200, "Ok");
                 oS.oResponse["Content-Type"] = "application/json; charset=utf-8";
-                oS.utilSetResponseBody(@"{""status"":""success"",""uid"":"""+param["uid"]+@""",""username"":""ruri"",""usertoken"":"""+param["usertoken"]+ @""",""usertype"":4,""framework"":0,""loginauth"":""ffffffffffffffffffffffffffffffffffffffff""}");
+                var uid = param.ContainsKey("uid")?param["uid"]:"100000";
+                var usertoken = param.ContainsKey("usertoken")? param ["usertoken"]: "ffffffffffffffffffffffffffffffff";
+                oS.utilSetResponseBody(@"{""status"":""success"",""uid"":"""+ uid + @""",""username"":""ruri"",""usertoken"":"""+ usertoken + @""",""usertype"":4,""framework"":0,""loginauth"":""ffffffffffffffffffffffffffffffffffffffff""}");
                 return;
             }
             if (oS.host == "androidprod.nono.nyanbox.com:8082")
