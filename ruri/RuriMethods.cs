@@ -29,7 +29,7 @@ namespace Ruri
             res["user"] = this.UserData;
             res["serverTime"] = 1545752883;
             string aa = res.ToString(Formatting.None);
-            return res.ToString(Formatting.None); 
+            return res.ToString(Formatting.None);
         }
         public string CheckStatus(string param)
         {
@@ -128,7 +128,7 @@ namespace Ruri
             JObject p = JObject.Parse(param);
             string key = (string)p["storykey"] + "_End";
             this.UserData["story"]["vars"][key] = 1;
-            return @"{""playerDataDelta"":{""modified"":{""story"":{""vars"":{"""+ key + @""":1}}},""deleted"":{}}}";
+            return @"{""playerDataDelta"":{""modified"":{""story"":{""vars"":{""" + key + @""":1}}},""deleted"":{}}}";
         }
     }
 
@@ -251,11 +251,13 @@ namespace Ruri
 
     public class Ruri
     {
+        string packageVersion;
         public JObject UserData { get; set; }
         public JObject ServerData { get; set; }
 
-        public Ruri(string data)
+        public Ruri(string data, string packageVersion)
         {
+            this.packageVersion = packageVersion;
             JObject json = JObject.Parse(data);
 
             this.UserData = (JObject)json["userData"];
@@ -274,7 +276,7 @@ namespace Ruri
             JObject data = new JObject();
             data["userData"] = this.UserData;
             data["serverData"] = this.ServerData;
-            data["version"] = "0.0.2";
+            data["version"] = this.packageVersion;
             return data.ToString(Formatting.Indented);
         }
         public User User { get; }

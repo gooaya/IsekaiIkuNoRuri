@@ -24,4 +24,25 @@
 		android:layout_height="wrap_content"
 		android:padding="10dp"
 		android:id="@+id/textDescription" />
+	<TextView
+		android:inputType="textMultiLine"
+		android:text="新装的客户端请选“立即登录”。\n账号：ruri\n密码：******"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:id="@+id/textDescription" /> 
+	<TextView
+		android:inputType="textMultiLine"
+		android:text="控制台要开启代理才能正常使用，修改保存后可能要重启游戏才能生效。"
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="10dp"
+		android:id="@+id/textDescription" />
+	<Button 
+		android:id="@+id/buttonConsole" 
+		android:text="控制台" 
+		android:layout_width="match_parent" 
+		android:layout_height="wrap_content"/>
 </LinearLayout>

@@ -18,9 +18,12 @@ namespace FiddlerCore.NetCore
 {
     public class ProxyController
     {
-        ushort iPort = 8080;
+        const ushort iPort = 8080;
+        static string consoleHost = "gooaya.github.io";
+
         FiddlerCoreStartupSettings startupSettings;
         Ruri.Ruri ruri;
+        string packageVersion;
 
         public ProxyController()
         {
@@ -47,9 +50,10 @@ namespace FiddlerCore.NetCore
                 return ruri != null;
             }
         }
-        public void Init(string userData)
+        public void Init(string userData, string packageVersion)
         {
-            ruri = new Ruri.Ruri(userData);
+            ruri = new Ruri.Ruri(userData, packageVersion);
+            this.packageVersion = packageVersion;
         }
         public string DataSnapshot()
         {
@@ -69,12 +73,12 @@ namespace FiddlerCore.NetCore
         private void OnRequest(Session oS)
         {
             FiddlerApplication.Log.LogFormat("{0} {1}", oS.RequestMethod, oS.fullUrl);
-            if(oS.fullUrl== "http://ad2.nono.nyanbox.com:7080/static/server-list.json")
+            if (oS.fullUrl == "http://ad2.nono.nyanbox.com:7080/static/server-list.json")
             {
                 oS.utilCreateResponseAndBypassServer();
                 oS.oResponse.headers.SetStatus(200, "Ok");
                 oS.oResponse["Content-Type"] = "application/json; charset=UTF-8";
-                oS.utilSetResponseBody(@"[{""id"":""397"",""domain"":""androidprod.nono.nyanbox.com"",""name"":""test"",""utcOffset"":28800,""downloadLink"":""http://localhost/nono/nono_60112.apk"",""curVersion"":""0.7.8"",""minVersion"":""0.7.8"",""noticeUrl"":""https://github.com/gooaya/IsekaiIkuNoRuri/releases"",""userTermsUrl"":""http://localhost:80/""}]");
+                oS.utilSetResponseBody(@"[{""id"":""397"",""domain"":""androidprod.nono.nyanbox.com"",""name"":""test"",""utcOffset"":28800,""downloadLink"":""http://localhost/nono/nono_60112.apk"",""curVersion"":""0.7.8"",""minVersion"":""0.7.8"",""noticeUrl"":""http://console.nono.nyanbox.com/IsekaiIkuNoRuri/index.html"",""userTermsUrl"":""http://localhost:80/""}]");
                 return;
             }
             if (oS.fullUrl.StartsWith("http://as1.nono.nyanbox.com:8089/u8server/user/getToken"))
@@ -115,17 +119,87 @@ namespace FiddlerCore.NetCore
                 oS.oResponse["Content-Type"] = "application/x-www-form-urlencoded; charset=utf-8";
                 return;
             }
-            if (oS.fullUrl== "http://mapi.2144.cn/user/autologin" || oS.fullUrl == "http://mapi.2144.cn/user/login")
+            if (oS.fullUrl == "http://mapi.2144.cn/user/autologin" || oS.fullUrl == "http://mapi.2144.cn/user/login")
             {
                 var param = ParseQueryString(System.Text.Encoding.UTF8.GetString(oS.RequestBody));
                 if (param["appkey"] != "pcqyDyCTHCFmXEQD") return;
                 oS.utilCreateResponseAndBypassServer();
                 oS.oResponse.headers.SetStatus(200, "Ok");
                 oS.oResponse["Content-Type"] = "application/json; charset=utf-8";
-                var uid = param.ContainsKey("uid")?param["uid"]:"100000";
-                var usertoken = param.ContainsKey("usertoken")? param ["usertoken"]: "ffffffffffffffffffffffffffffffff";
-                oS.utilSetResponseBody(@"{""status"":""success"",""uid"":"""+ uid + @""",""username"":""ruri"",""usertoken"":"""+ usertoken + @""",""usertype"":4,""framework"":0,""loginauth"":""ffffffffffffffffffffffffffffffffffffffff""}");
+                var uid = param.ContainsKey("uid") ? param["uid"] : "100000";
+                var usertoken = param.ContainsKey("usertoken") ? param["usertoken"] : "ffffffffffffffffffffffffffffffff";
+                oS.utilSetResponseBody(@"{""status"":""success"",""uid"":""" + uid + @""",""username"":""ruri"",""usertoken"":""" + usertoken + @""",""usertype"":4,""framework"":0,""loginauth"":""ffffffffffffffffffffffffffffffffffffffff""}");
                 return;
+            }
+            if (oS.host == "console.nono.nyanbox.com")
+            {
+                try
+                {
+                    var method = oS.RequestMethod;
+                    var paths = oS.PathAndQuery.Split('/');
+                    var methodName = paths[2];
+                    if (methodName == "userData")
+                    {
+                        if (oS.RequestMethod == "GET")
+                        {
+                            oS.utilCreateResponseAndBypassServer();
+                            oS.oResponse.headers.SetStatus(200, "OK");
+                            oS.oResponse["Content-Type"] = "application/json;charset=utf-8";
+                            oS.utilSetResponseBody(ruri.DataSnapshot());
+                            return;
+                        }
+                        else if (oS.RequestMethod == "POST")
+                        {
+                            var userData = System.Text.Encoding.UTF8.GetString(oS.RequestBody);
+                            this.Init(userData, this.packageVersion);
+                            oS.utilCreateResponseAndBypassServer();
+                            oS.oResponse.headers.SetStatus(200, "OK");
+                            oS.oResponse["Content-Type"] = "application/json;charset=utf-8";
+                            oS.utilSetResponseBody(@"{""success"":""true""}");
+                            return;
+                        }
+                    }
+                    if (methodName == "version")
+                    {
+                        oS.utilCreateResponseAndBypassServer();
+                        oS.oResponse.headers.SetStatus(200, "OK");
+                        oS.oResponse["Content-Type"] = "application/json;charset=utf-8";
+                        oS.utilSetResponseBody(@"{""version"":""" + this.packageVersion + @"""}");
+                        return;
+                    }
+                    if (methodName == "static")
+                    {
+                        oS.utilCreateResponseAndBypassServer();
+                        oS.oResponse.headers.SetStatus(301, "Redirect");
+                        oS.oResponse["Cache-Control"] = "public, must-revalidate, proxy-revalidate, max-age=3600";
+                        oS.oResponse["Location"] = "https://" + consoleHost + oS.PathAndQuery;
+                        oS.utilSetResponseBody("<html><body>Redirect</body></html>");
+                        return;
+                    }
+                    WebRequest req = HttpWebRequest.Create("https://" + consoleHost + oS.PathAndQuery);
+
+                    req.Method = "GET";
+
+                    string source;
+
+                    var res = (HttpWebResponse)req.GetResponse();
+
+                    using (StreamReader reader = new StreamReader(res.GetResponseStream()))
+                    {
+                        source = reader.ReadToEnd();
+                    }
+                    oS.utilCreateResponseAndBypassServer();
+                    oS.oResponse.headers.SetStatus((int)res.StatusCode, res.StatusDescription);
+                    oS.oResponse["Content-Type"] = res.ContentType;
+                    oS.utilSetResponseBody(source);
+
+                    return;
+                }
+                catch (Exception e)
+                {
+                    oS.utilCreateResponseAndBypassServer();
+                    oS.oResponse.headers.SetStatus(500, e.Message);
+                }
             }
             if (oS.host == "androidprod.nono.nyanbox.com:8082")
             {
@@ -167,9 +241,9 @@ namespace FiddlerCore.NetCore
                         if (methodName == "completeStory")
                             response = ruri.Story.CompleteStory(param);
                     }
-                    if(className== "character")
+                    if (className == "character")
                     {
-                        if(methodName== "loadWeapon")
+                        if (methodName == "loadWeapon")
                             response = ruri.Character.LoadWeapon(param);
                         if (methodName == "loadEquip")
                             response = ruri.Character.LoadEquip(param);
@@ -178,13 +252,13 @@ namespace FiddlerCore.NetCore
                     }
                     if (className == "food")
                     {
-                        if(methodName=="eatFood")
+                        if (methodName == "eatFood")
                             response = ruri.Food.EatFood(param);
 
                     }
                     if (className == "present")
                     {
-                        if(methodName== "givePresentItem")
+                        if (methodName == "givePresentItem")
                             response = ruri.Present.GivePresentItem(param);
                     }
                     oS.utilCreateResponseAndBypassServer();

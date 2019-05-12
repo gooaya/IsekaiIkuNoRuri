@@ -29,6 +29,12 @@ namespace ruri
                 else
                     this.serviceConnection?.Stop();
             };
+            FindViewById<Button>(Resource.Id.buttonConsole).Click += (o, e) =>
+            {
+                var uri = Android.Net.Uri.Parse("http://console.nono.nyanbox.com/IsekaiIkuNoRuri/index.html");
+                var intent = new Intent(Intent.ActionView, uri);
+                StartActivity(intent);
+            };
         }
         protected override void OnStart()
         {
@@ -67,22 +73,24 @@ namespace ruri
             // This method is optional to implement
             base.OnCreate();
             Log.Debug(TAG, "OnCreate");
-
             if (!controller.Inited)
             {
                 _userDataPath = Path.Combine(ApplicationContext.GetExternalFilesDir(null).Path, "userData-0.7.8.json");
+                var packageInfo = ApplicationContext.PackageManager.GetPackageInfo(ApplicationContext.PackageName, 0);
+                var packageVersion = packageInfo.VersionName.ToString();
+
                 if (!File.Exists(_userDataPath))
                 {
                     using (StreamReader sr = new StreamReader(this.Assets.Open("userData.json")))
                     {
                         // File.WriteAllText(_userDataPath, @"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""0.0.2""}");
-                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""0.0.2""}");
+                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""" + packageVersion + @"""}", packageVersion);
                     }
                 }
                 else
                 {
                     string userData = File.ReadAllText(_userDataPath);
-                    controller.Init(userData);
+                    controller.Init(userData, packageVersion);
                 }
             }
         }
