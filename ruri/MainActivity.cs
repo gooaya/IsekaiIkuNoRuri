@@ -8,34 +8,70 @@ using Android.Content;
 using System.IO;
 using Android.Util;
 using System;
+using Android.Support.V4.App;
+using Android.Content;
+
 
 namespace ruri
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
     public class MainActivity : AppCompatActivity
     {
-        ProxyServiceConnection serviceConnection;
+        private bool isStarted;
+
+        // ProxyServiceConnection serviceConnection;
+
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+            OnNewIntent(this.Intent);
 
-            FindViewById<Switch>(Resource.Id.switchBeacon).CheckedChange += (o, e) =>
+            if (savedInstanceState != null)
+            {
+                isStarted = savedInstanceState.GetBoolean(Constants.SERVICE_STARTED_KEY, false);
+            }
+
+            Intent startServiceIntent = new Intent(this, typeof(ProxyService));
+            startServiceIntent.SetAction(Constants.ACTION_START_SERVICE);
+
+            Intent stopServiceIntent = new Intent(this, typeof(ProxyService));
+            stopServiceIntent.SetAction(Constants.ACTION_STOP_SERVICE);
+
+            var switchView = FindViewById<Switch>(Resource.Id.switchBeacon);
+            switchView.Checked = isStarted;
+            switchView.CheckedChange += (o, e) =>
             {
                 if (e.IsChecked)
-                    this.serviceConnection?.Start();
+                    StartService(startServiceIntent);
                 else
-                    this.serviceConnection?.Stop();
+                    StopService(stopServiceIntent);
             };
+
             FindViewById<Button>(Resource.Id.buttonConsole).Click += (o, e) =>
             {
                 var uri = Android.Net.Uri.Parse("http://console.nono.nyanbox.com/IsekaiIkuNoRuri/index.html");
                 var intent = new Intent(Intent.ActionView, uri);
                 StartActivity(intent);
             };
+
+            FindViewById<Button>(Resource.Id.buttonGithub).Click += (o, e) =>
+            {
+                var uri = Android.Net.Uri.Parse("https://github.com/gooaya/IsekaiIkuNoRuri");
+                var intent = new Intent(Intent.ActionView, uri);
+                StartActivity(intent);
+            };
         }
+
+        protected override void OnNewIntent(Intent intent)
+        {
+            var bundle = intent==null ? null : intent.Extras;
+            if (bundle == null) return;    
+            isStarted = bundle.ContainsKey(Constants.SERVICE_STARTED_KEY);
+        }
+        /*
         protected override void OnStart()
         {
             base.OnStart();
@@ -56,8 +92,25 @@ namespace ruri
             base.OnDestroy();
             this.serviceConnection?.Save();
         }
+        */
     }
 
+    public static class Constants
+    {
+        public const int DELAY_BETWEEN_LOG_MESSAGES = 5000; // milliseconds
+        public const int SERVICE_RUNNING_NOTIFICATION_ID = 10000;
+        public const string SERVICE_STARTED_KEY = "has_service_been_started";
+        public const string BROADCAST_MESSAGE_KEY = "broadcast_message";
+        public const string NOTIFICATION_BROADCAST_ACTION = "ruri.Notification.Action";
+
+        public const string ACTION_START_SERVICE = "ruri.action.START_SERVICE";
+        public const string ACTION_STOP_SERVICE = "ruri.action.STOP_SERVICE";
+        public const string ACTION_RESTART_TIMER = "ruri.action.RESTART_TIMER";
+        public const string ACTION_MAIN_ACTIVITY = "ruri.action.MAIN_ACTIVITY";
+    }
+
+
+    // https://github.com/xamarin/monodroid-samples/tree/master/ApplicationFundamentals/ServiceSamples/ForegroundServiceDemo
     [Service]
     [IntentFilter(new String[] { "com.xamarin.ProxyService" })]
     public class ProxyService : Service
@@ -67,6 +120,7 @@ namespace ruri
         static readonly ProxyController controller = new ProxyController();
         static readonly string TAG = typeof(ProxyService).FullName;
         public IBinder Binder { get; private set; }
+        bool isStarted;
 
         public override void OnCreate()
         {
@@ -99,119 +153,112 @@ namespace ruri
         public override IBinder OnBind(Intent intent)
         {
             // This method must always be implemented
-            Log.Debug(TAG, "OnBind");
-            this.Binder = new ProxyBinder(this);
-            return this.Binder;
+            // Log.Debug(TAG, "OnBind");
+            // this.Binder = new ProxyBinder(this);
+            // return this.Binder;
+            return null;
+        }
+        NotificationManager manager;
+        NotificationManager Manager
+        {
+            get
+            {
+                if (manager == null)
+                {
+                    manager = (NotificationManager)GetSystemService(NotificationService);
+                }
+                return manager;
+            }
         }
 
-        public void Start()
+        String createNotificationChannel(String channelId, String channelName )
         {
-            controller.StartProxy();
+            var chan1 = new NotificationChannel(channelId, channelName, NotificationImportance.Default);
+            // chan1.LightColor = Color.Green;
+            chan1.LockscreenVisibility = NotificationVisibility.Private;
+            Manager.CreateNotificationChannel(chan1);
+            return channelId;
         }
 
-        public void Stop()
+    void RegisterForegroundService()
         {
-            controller.Stop();
+
+            Notification notification = new NotificationCompat.Builder(this, createNotificationChannel("ruri_channel","Ruri Channel"))
+                .SetContentTitle(Resources.GetString(Resource.String.desc_connected))
+                // .SetContentText(Resources.GetString(Resource.String.desc_connected))
+                .SetSmallIcon(Resource.Mipmap.ic_launcher_foreground)
+                .SetContentIntent(BuildIntentToShowMainActivity())
+                .SetOngoing(true)
+                .AddAction(BuildStopServiceAction())
+                .Build();
+
+
+            // Enlist this instance of the service as a foreground service
+            StartForeground(Constants.SERVICE_RUNNING_NOTIFICATION_ID, notification);
         }
+
+        PendingIntent BuildIntentToShowMainActivity()
+        {
+            var notificationIntent = new Intent(this, typeof(MainActivity));
+            notificationIntent.SetAction("ruri.action.MAIN_ACTIVITY");
+            notificationIntent.SetFlags(ActivityFlags.SingleTop | ActivityFlags.ClearTask);
+            notificationIntent.PutExtra(Constants.SERVICE_STARTED_KEY, true);
+
+            var pendingIntent = PendingIntent.GetActivity(this, 0, notificationIntent, PendingIntentFlags.UpdateCurrent);
+            return pendingIntent;
+        }
+
+        NotificationCompat.Action BuildStopServiceAction()
+        {
+            var stopServiceIntent = new Intent(this, GetType());
+            stopServiceIntent.SetAction(Constants.ACTION_STOP_SERVICE);
+            var stopServicePendingIntent = PendingIntent.GetService(this, 0, stopServiceIntent, 0);
+
+            var builder = new NotificationCompat.Action.Builder(Android.Resource.Drawable.IcMediaPause,
+                                                          GetText(Resource.String.action_disconnect),
+                                                          stopServicePendingIntent);
+            return builder.Build();
+        }
+
+        public override StartCommandResult OnStartCommand(Intent intent, StartCommandFlags flags, int startId)
+        {
+            if (intent.Action.Equals(Constants.ACTION_START_SERVICE))
+            {
+                if (isStarted)
+                {
+                    Log.Info(TAG, "OnStartCommand: The service is already running.");
+                }
+                else
+                {
+                    Log.Info(TAG, "OnStartCommand: The service is starting.");
+                    RegisterForegroundService();
+                    controller.StartProxy();
+                    isStarted = true;
+                }
+            }
+            else if (intent.Action.Equals(Constants.ACTION_STOP_SERVICE))
+            {
+                Log.Info(TAG, "OnStartCommand: The service is stopping.");
+                controller.Stop();
+                StopForeground(true);
+                StopSelf();
+                isStarted = false;
+            }
+
+            // This tells Android not to restart the service if it is killed to reclaim resources.
+            return StartCommandResult.Sticky;
+        }
+
 
         public void Save()
         {
             File.WriteAllText(_userDataPath, controller.DataSnapshot());
         }
-    }
-
-    public class ProxyBinder : Binder
-    {
-        ProxyService service;
-        public ProxyBinder(ProxyService service)
+        public override void OnDestroy()
         {
-            this.service = service;
-        }
-
-        public void Start()
-        {
-            service?.Start();
-        }
-        public void Stop()
-        {
-            service?.Stop();
-        }
-
-        internal void Save()
-        {
-            service?.Save();
+            controller.Stop();
+            base.OnDestroy();
         }
     }
 
-    public class ProxyServiceConnection : Java.Lang.Object, IServiceConnection
-    {
-        static readonly string TAG = typeof(ProxyServiceConnection).FullName;
-
-        MainActivity mainActivity;
-        public ProxyServiceConnection(MainActivity activity)
-        {
-            IsConnected = false;
-            Binder = null;
-            mainActivity = activity;
-        }
-
-        public bool IsConnected { get; private set; }
-        public ProxyBinder Binder { get; private set; }
-
-        public void OnServiceConnected(ComponentName name, IBinder service)
-        {
-            Binder = service as ProxyBinder;
-            IsConnected = this.Binder != null;
-
-            string message = "onServiceConnected - ";
-            Log.Debug(TAG, $"OnServiceConnected {name.ClassName}");
-
-            if (IsConnected)
-            {
-                message = message + " bound to service " + name.ClassName;
-                // mainActivity.UpdateUiForBoundService();
-            }
-            else
-            {
-                message = message + " not bound to service " + name.ClassName;
-                // mainActivity.UpdateUiForUnboundService();
-            }
-
-            Log.Info(TAG, message);
-            // mainActivity.ProxyMessageTextView.Text = message;
-
-        }
-
-        public void OnServiceDisconnected(ComponentName name)
-        {
-            Log.Debug(TAG, $"OnServiceDisconnected {name.ClassName}");
-            IsConnected = false;
-            Binder = null;
-            // mainActivity.UpdateUiForUnboundService();
-        }
-
-        public void Start()
-        {
-            if (IsConnected)
-            {
-                Binder?.Start();
-            }
-        }
-
-        public void Stop()
-        {
-            if (IsConnected)
-            {
-                Binder?.Stop();
-            }
-        }
-
-        public void Save()
-        {
-            if (IsConnected)
-            {
-                Binder.Save();
-            }
-        }
-    }
 }
