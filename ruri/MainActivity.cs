@@ -11,7 +11,6 @@ using System;
 using Android.Support.V4.App;
 using Android.Content;
 
-
 namespace ruri
 {
     [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
@@ -20,7 +19,6 @@ namespace ruri
         private bool isStarted;
 
         // ProxyServiceConnection serviceConnection;
-
 
         protected override void OnCreate(Bundle savedInstanceState)
         {
@@ -47,7 +45,7 @@ namespace ruri
                 if (e.IsChecked)
                     StartService(startServiceIntent);
                 else
-                    StopService(stopServiceIntent);
+                    StartService(stopServiceIntent);
             };
 
             FindViewById<Button>(Resource.Id.buttonConsole).Click += (o, e) =>
@@ -67,8 +65,8 @@ namespace ruri
 
         protected override void OnNewIntent(Intent intent)
         {
-            var bundle = intent==null ? null : intent.Extras;
-            if (bundle == null) return;    
+            var bundle = intent == null ? null : intent.Extras;
+            if (bundle == null) return;
             isStarted = bundle.ContainsKey(Constants.SERVICE_STARTED_KEY);
         }
         /*
@@ -93,6 +91,16 @@ namespace ruri
             this.serviceConnection?.Save();
         }
         */
+        protected override void OnDestroy()
+        {
+            if (this.IsFinishing)
+            {
+                Intent stopServiceIntent = new Intent(this, typeof(ProxyService));
+                stopServiceIntent.SetAction(Constants.ACTION_STOP_SERVICE);
+                StartService(stopServiceIntent);
+            }
+            base.OnDestroy();
+        }
     }
 
     public static class Constants
@@ -127,9 +135,9 @@ namespace ruri
             // This method is optional to implement
             base.OnCreate();
             Log.Debug(TAG, "OnCreate");
+            _userDataPath = Path.Combine(ApplicationContext.GetExternalFilesDir(null).Path, "userData-0.7.8.json");
             if (!controller.Inited)
             {
-                _userDataPath = Path.Combine(ApplicationContext.GetExternalFilesDir(null).Path, "userData-0.7.8.json");
                 var packageInfo = ApplicationContext.PackageManager.GetPackageInfo(ApplicationContext.PackageName, 0);
                 var packageVersion = packageInfo.VersionName.ToString();
 
@@ -171,7 +179,7 @@ namespace ruri
             }
         }
 
-        String createNotificationChannel(String channelId, String channelName )
+        String createNotificationChannel(String channelId, String channelName)
         {
             var chan1 = new NotificationChannel(channelId, channelName, NotificationImportance.Default);
             // chan1.LightColor = Color.Green;
@@ -180,10 +188,10 @@ namespace ruri
             return channelId;
         }
 
-    void RegisterForegroundService()
+        void RegisterForegroundService()
         {
 
-            Notification notification = new NotificationCompat.Builder(this, createNotificationChannel("ruri_channel","Ruri Channel"))
+            Notification notification = new NotificationCompat.Builder(this, createNotificationChannel("ruri_channel", "Ruri Channel"))
                 .SetContentTitle(Resources.GetString(Resource.String.desc_connected))
                 // .SetContentText(Resources.GetString(Resource.String.desc_connected))
                 .SetSmallIcon(Resource.Mipmap.ic_launcher_foreground)
@@ -249,13 +257,13 @@ namespace ruri
             return StartCommandResult.Sticky;
         }
 
-
         public void Save()
         {
             File.WriteAllText(_userDataPath, controller.DataSnapshot());
         }
         public override void OnDestroy()
         {
+            this.Save();
             controller.Stop();
             base.OnDestroy();
         }
