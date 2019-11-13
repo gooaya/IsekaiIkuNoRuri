@@ -1,18 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.IO;
-using System.Linq;
-using System.Reflection;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading;
 using System.Net;
-
 using Fiddler;
-using Ruri;
-using Newtonsoft.Json;
-using Android.Content.Res;
 
 namespace FiddlerCore.NetCore
 {

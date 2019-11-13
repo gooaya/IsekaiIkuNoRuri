@@ -1,7 +1,6 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Support.V7.App;
-using Android.Runtime;
 using Android.Widget;
 using FiddlerCore.NetCore;
 using Android.Content;
@@ -9,7 +8,6 @@ using System.IO;
 using Android.Util;
 using System;
 using Android.Support.V4.App;
-using Android.Content;
 
 namespace ruri
 {
@@ -69,28 +67,7 @@ namespace ruri
             if (bundle == null) return;
             isStarted = bundle.ContainsKey(Constants.SERVICE_STARTED_KEY);
         }
-        /*
-        protected override void OnStart()
-        {
-            base.OnStart();
-            if (serviceConnection == null)
-            {
-                this.serviceConnection = new ProxyServiceConnection(this);
-            }
-            Intent serviceToStart = new Intent(this, typeof(ProxyService));
-            BindService(serviceToStart, this.serviceConnection, Bind.AutoCreate);
-        }
-        protected override void OnStop()
-        {
-            base.OnStop();
-            this.serviceConnection?.Save();
-        }
-        protected override void OnDestroy()
-        {
-            base.OnDestroy();
-            this.serviceConnection?.Save();
-        }
-        */
+
         protected override void OnDestroy()
         {
             if (this.IsFinishing)
@@ -105,11 +82,8 @@ namespace ruri
 
     public static class Constants
     {
-        public const int DELAY_BETWEEN_LOG_MESSAGES = 5000; // milliseconds
         public const int SERVICE_RUNNING_NOTIFICATION_ID = 10000;
         public const string SERVICE_STARTED_KEY = "has_service_been_started";
-        public const string BROADCAST_MESSAGE_KEY = "broadcast_message";
-        public const string NOTIFICATION_BROADCAST_ACTION = "ruri.Notification.Action";
 
         public const string ACTION_START_SERVICE = "ruri.action.START_SERVICE";
         public const string ACTION_STOP_SERVICE = "ruri.action.STOP_SERVICE";
@@ -145,7 +119,6 @@ namespace ruri
                 {
                     using (StreamReader sr = new StreamReader(this.Assets.Open("userData.json")))
                     {
-                        // File.WriteAllText(_userDataPath, @"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""0.0.2""}");
                         controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""" + packageVersion + @"""}", packageVersion);
                     }
                 }
@@ -193,7 +166,6 @@ namespace ruri
 
             Notification notification = new NotificationCompat.Builder(this, createNotificationChannel("ruri_channel", "Ruri Channel"))
                 .SetContentTitle(Resources.GetString(Resource.String.desc_connected))
-                // .SetContentText(Resources.GetString(Resource.String.desc_connected))
                 .SetSmallIcon(Resource.Mipmap.ic_launcher_foreground)
                 .SetContentIntent(BuildIntentToShowMainActivity())
                 .SetOngoing(true)
@@ -208,7 +180,7 @@ namespace ruri
         PendingIntent BuildIntentToShowMainActivity()
         {
             var notificationIntent = new Intent(this, typeof(MainActivity));
-            notificationIntent.SetAction("ruri.action.MAIN_ACTIVITY");
+            notificationIntent.SetAction(Constants.ACTION_MAIN_ACTIVITY);
             notificationIntent.SetFlags(ActivityFlags.SingleTop | ActivityFlags.ClearTask);
             notificationIntent.PutExtra(Constants.SERVICE_STARTED_KEY, true);
 

@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">琉璃前往异世界</string>
-    <string name="action_disconnect">断开连接</string>
-    <string name="desc_connected">已与异世界建立连接（大概）</string>
+    <string name="action_disconnect">回到现在</string>
+    <string name="desc_connected">已与过去界建立联系（大概）</string>
     <string name="action_settings">Settings</string>
 </resources>
