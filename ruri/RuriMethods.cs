@@ -72,7 +72,7 @@ namespace Ruri
         }
         public string GetResVersion(string param)
         {
-            return @"{""curResVersion"":15,""curResPackageUrl"":""" + this.ServerData["gameDataUrl"] + @"""}";
+            return @"{""curResVersion"":15,""curResPackageUrl"":""http://127.0.0.1:8080/""}";
         }
     }
     public class Battle

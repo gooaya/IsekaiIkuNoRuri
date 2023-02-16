@@ -136,7 +136,7 @@ namespace ruri
                 {
                     using (StreamReader sr = new StreamReader(this.Assets.Open("userData.json")))
                     {
-                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{""gameDataUrl"":""https://gooaya.github.io/static/""},""version"":""" + packageVersion + @"""}", packageVersion);
+                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""" + packageVersion + @"""}", packageVersion);
                     }
                 }
                 else

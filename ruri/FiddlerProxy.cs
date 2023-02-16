@@ -76,6 +76,15 @@ namespace FiddlerCore.NetCore
         private void OnRequest(Session oS)
         {
             FiddlerApplication.Log.LogFormat("{0} {1}", oS.RequestMethod, oS.fullUrl);
+            Console.WriteLine(oS.fullUrl); 
+            if (oS.fullUrl == "http://127.0.0.1:" + ProxyController.iPort + "/android/1-15.zip" && this.proxyServices.Count>0)
+            {
+                oS.utilCreateResponseAndBypassServer();
+                oS.oResponse.headers.SetStatus(200, "Ok");
+                oS.oResponse["Content-Type"] = "application/zip";
+                oS.LoadResponseFromStream(this.proxyServices[0].Assets.Open("com.blademaster.nono.zip"), "application/zip");
+                return;
+            }
             if (oS.fullUrl == "http://ad2.nono.nyanbox.com:7080/static/server-list.json")
             {
                 oS.utilCreateResponseAndBypassServer();
