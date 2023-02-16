@@ -203,7 +203,7 @@ namespace ruri
             notificationIntent.SetFlags(ActivityFlags.SingleTop | ActivityFlags.ClearTask);
             notificationIntent.PutExtra(Constants.SERVICE_STARTED_KEY, true);
 
-            var pendingIntent = PendingIntent.GetActivity(this, 0, notificationIntent, PendingIntentFlags.UpdateCurrent| PendingIntentFlags.Immutable);
+            var pendingIntent = PendingIntent.GetActivity(this, 0, notificationIntent, PendingIntentFlags.UpdateCurrent | PendingIntentFlags.Immutable);
             return pendingIntent;
         }
 

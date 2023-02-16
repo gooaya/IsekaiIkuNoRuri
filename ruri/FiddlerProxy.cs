@@ -24,7 +24,7 @@ namespace FiddlerCore.NetCore
         {
             startupSettings =
                 new FiddlerCoreStartupSettingsBuilder()
-                    .ListenOnPort(iPort)                    
+                    .ListenOnPort(iPort)
                     //.RegisterAsSystemProxy()
                     //.DecryptSSL()
                     //.AllowRemoteClients()

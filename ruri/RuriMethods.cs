@@ -72,10 +72,7 @@ namespace Ruri
         }
         public string GetResVersion(string param)
         {
-            // return @"{'curResVersion':15,'curResPackageUrl':'http://127.0.0.1/assets/'}".Replace('\'', '"');
-            // return @"{'curResVersion':15,'curResPackageUrl':'http://nonostatic.b0.upaiyun.com/assets/'}".Replace('\'', '"');
-            return @"{'curResVersion':15,'curResPackageUrl':'http://192.168.1.188:3000/'}".Replace('\'', '"');
-            return @"{""curResVersion"":15,""curResPackageUrl"":""" + this.ServerData["gameDataUrl"] +@"""}";
+            return @"{""curResVersion"":15,""curResPackageUrl"":""" + this.ServerData["gameDataUrl"] + @"""}";
         }
     }
     public class Battle
