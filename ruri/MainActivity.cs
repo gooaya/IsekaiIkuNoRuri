@@ -8,6 +8,8 @@ using System.IO;
 using Android.Util;
 using System;
 using Android.Support.V4.App;
+using Java.Net;
+using Android;
 
 namespace ruri
 {
@@ -59,7 +61,22 @@ namespace ruri
                 var intent = new Intent(Intent.ActionView, uri);
                 StartActivity(intent);
             };
+
+            bool notificationsEnabled = NotificationManagerCompat.From(this).AreNotificationsEnabled();
+            if (notificationsEnabled)
+            {
+                // Notifications are enabled
+            }
+            else
+            {
+                Intent intent = new Intent();
+                intent.SetAction(Android.Provider.Settings.ActionApplicationDetailsSettings);
+                intent.AddCategory(Intent.CategoryDefault);
+                intent.SetData(Android.Net.Uri.Parse("package:" + Application.Context.PackageName));
+                StartActivity(intent);
+            }
         }
+
 
         protected override void OnNewIntent(Intent intent)
         {
@@ -119,7 +136,7 @@ namespace ruri
                 {
                     using (StreamReader sr = new StreamReader(this.Assets.Open("userData.json")))
                     {
-                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""" + packageVersion + @"""}", packageVersion);
+                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{""gameDataUrl"":""https://gooaya.github.io/static/""},""version"":""" + packageVersion + @"""}", packageVersion);
                     }
                 }
                 else
@@ -166,6 +183,7 @@ namespace ruri
         {
 
             Notification notification = new NotificationCompat.Builder(this, createNotificationChannel("ruri_channel", "Ruri Channel"))
+                .SetAutoCancel(false)
                 .SetContentTitle(Resources.GetString(Resource.String.desc_connected))
                 .SetSmallIcon(Resource.Mipmap.ic_launcher_foreground)
                 .SetContentIntent(BuildIntentToShowMainActivity())

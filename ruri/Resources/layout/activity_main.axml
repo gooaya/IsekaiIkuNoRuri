@@ -1,61 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
-	xmlns:android="http://schemas.android.com/apk/res/android"
-	xmlns:app="http://schemas.android.com/apk/res-auto"
-	xmlns:tools="http://schemas.android.com/tools"
-	android:layout_width="match_parent"
-	android:layout_height="match_parent"
-	android:orientation="vertical"
-	android:minWidth="25px"
-	android:minHeight="25px">
-	<Switch
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:minWidth="25px"
-		android:minHeight="25px"
-		android:padding="10dp"
-		android:id="@+id/switchBeacon"
-		android:text="极地支部信标" />
-	<TextView
-		android:inputType="textMultiLine"
-		android:text="启动信标后，需要Wifi网络处手动设置代理服务器主机名127.0.0.1，端口8080。完事后记得把代理改回“无”，否则无法连网。"
-		android:textAppearance="?android:attr/textAppearanceMedium"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:padding="10dp"
-		android:id="@+id/textDescription" />
-	<TextView
-		android:inputType="textMultiLine"
-		android:text="新装的客户端请选“立即登录”。\n账号：ruri\n密码：******"
-		android:textAppearance="?android:attr/textAppearanceMedium"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:padding="10dp"
-		android:id="@+id/textAccounts" /> 
-	<TextView
-		android:inputType="textMultiLine"
-		android:text="控制台要开启代理才能正常使用，修改保存后可能要重启游戏才能生效。"
-		android:textAppearance="?android:attr/textAppearanceMedium"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:padding="10dp"
-		android:id="@+id/textConsoleDescription" />
-	<Button 
-		android:id="@+id/buttonConsole" 
-		android:text="控制台" 
-		android:layout_width="match_parent" 
-		android:layout_height="wrap_content"/>
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+    <Switch
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="25px"
+        android:minHeight="25px"
+        android:padding="10dp"
+        android:id="@+id/switchBeacon"
+        android:text="极地支部信标" />
     <TextView
-		android:inputType="textMultiLine"
-		android:text="欢迎PR"
-		android:textAppearance="?android:attr/textAppearanceMedium"
-		android:layout_width="match_parent"
-		android:layout_height="wrap_content"
-		android:padding="10dp"
-		android:id="@+id/textPrWelcome" />
-	<Button 
-		android:id="@+id/buttonGithub" 
-		android:text="Github" 
-		android:layout_width="match_parent" 
-		android:layout_height="wrap_content"/>
+        android:inputType="textMultiLine"
+        android:text="启动信标后，需要Wifi网络处手动设置代理服务器主机名127.0.0.1，端口8080。完事后记得把代理改回“无”，否则无法连网。"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/textDescription" />
+    <TextView
+        android:inputType="textMultiLine"
+        android:text="新装的客户端请选“立即登录”。\n账号：ruri\n密码：******"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/textAccounts" />
+    <TextView
+        android:inputType="textMultiLine"
+        android:text="控制台要开启代理才能正常使用，修改保存后可能要重启游戏才能生效。"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/textConsoleDescription" />
+    <Button
+        android:id="@+id/buttonConsole"
+        android:text="控制台"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:inputType="textMultiLine"
+        android:text="欢迎PR"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/textPrWelcome" />
+    <Button
+        android:id="@+id/buttonGithub"
+        android:text="Github"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
 </LinearLayout>
