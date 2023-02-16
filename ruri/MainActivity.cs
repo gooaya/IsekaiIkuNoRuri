@@ -11,7 +11,7 @@ using Android.Support.V4.App;
 
 namespace ruri
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, Exported = true)]
     public class MainActivity : AppCompatActivity
     {
         private bool isStarted;
@@ -93,7 +93,7 @@ namespace ruri
 
 
     // https://github.com/xamarin/monodroid-samples/tree/master/ApplicationFundamentals/ServiceSamples/ForegroundServiceDemo
-    [Service]
+    [Service(Exported = true)]
     [IntentFilter(new String[] { "com.xamarin.ProxyService" })]
     public class ProxyService : Service
     {
@@ -128,6 +128,7 @@ namespace ruri
                     controller.Init(userData, packageVersion);
                 }
             }
+            controller.SetProxyService(this);
         }
 
         // Magical code that makes the service do wonderful things.
@@ -184,7 +185,7 @@ namespace ruri
             notificationIntent.SetFlags(ActivityFlags.SingleTop | ActivityFlags.ClearTask);
             notificationIntent.PutExtra(Constants.SERVICE_STARTED_KEY, true);
 
-            var pendingIntent = PendingIntent.GetActivity(this, 0, notificationIntent, PendingIntentFlags.UpdateCurrent);
+            var pendingIntent = PendingIntent.GetActivity(this, 0, notificationIntent, PendingIntentFlags.UpdateCurrent| PendingIntentFlags.Immutable);
             return pendingIntent;
         }
 
@@ -192,7 +193,7 @@ namespace ruri
         {
             var stopServiceIntent = new Intent(this, GetType());
             stopServiceIntent.SetAction(Constants.ACTION_STOP_SERVICE);
-            var stopServicePendingIntent = PendingIntent.GetService(this, 0, stopServiceIntent, 0);
+            var stopServicePendingIntent = PendingIntent.GetService(this, 0, stopServiceIntent, PendingIntentFlags.Immutable);
 
             var builder = new NotificationCompat.Action.Builder(Android.Resource.Drawable.IcMediaPause,
                                                           GetText(Resource.String.action_disconnect),
@@ -237,6 +238,7 @@ namespace ruri
         {
             this.Save();
             controller.Stop();
+            controller.UnsetProxyService(this);
             base.OnDestroy();
         }
     }

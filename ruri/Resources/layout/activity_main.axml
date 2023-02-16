@@ -31,7 +31,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:padding="10dp"
-		android:id="@+id/textDescription" /> 
+		android:id="@+id/textAccounts" /> 
 	<TextView
 		android:inputType="textMultiLine"
 		android:text="控制台要开启代理才能正常使用，修改保存后可能要重启游戏才能生效。"
@@ -39,7 +39,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:padding="10dp"
-		android:id="@+id/textDescription" />
+		android:id="@+id/textConsoleDescription" />
 	<Button 
 		android:id="@+id/buttonConsole" 
 		android:text="控制台" 
@@ -52,7 +52,7 @@
 		android:layout_width="match_parent"
 		android:layout_height="wrap_content"
 		android:padding="10dp"
-		android:id="@+id/textDescription" />
+		android:id="@+id/textPrWelcome" />
 	<Button 
 		android:id="@+id/buttonGithub" 
 		android:text="Github" 

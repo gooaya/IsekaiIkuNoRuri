@@ -2,7 +2,10 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
+using Android.App;
+using Android.OS;
 using Fiddler;
+using Java.Util;
 
 namespace FiddlerCore.NetCore
 {
@@ -14,6 +17,8 @@ namespace FiddlerCore.NetCore
         FiddlerCoreStartupSettings startupSettings;
         Ruri.Ruri ruri;
         string packageVersion;
+
+        List<Service> proxyServices = new List<Service>();
 
         public ProxyController()
         {
@@ -32,6 +37,14 @@ namespace FiddlerCore.NetCore
                     //.SetUpstreamGatewayTo("http=CorpProxy:80;https=SecureProxy:443;ftp=ftpGW:20")
                     .Build();
 
+        }
+        public void SetProxyService(Service service)
+        {
+            this.proxyServices.Add(service);
+        }
+        public void UnsetProxyService(Service service)
+        {
+            this.proxyServices.Remove(service);
         }
         public bool Inited
         {
@@ -63,6 +76,20 @@ namespace FiddlerCore.NetCore
         private void OnRequest(Session oS)
         {
             FiddlerApplication.Log.LogFormat("{0} {1}", oS.RequestMethod, oS.fullUrl);
+            Console.WriteLine(oS.fullUrl);
+            if (oS.fullUrl== "http://nonostatic.b0.upaiyun.com/assets/android/1-15.zip" && this.proxyServices.Count>0)
+            {
+                oS.utilCreateResponseAndBypassServer();
+                oS.oResponse.headers.SetStatus(200, "Ok");
+                oS.oResponse["Content-Type"] = "application/zip";
+                var service = this.proxyServices[0];
+                using (Stream sr = service.Assets.Open("com.blademaster.nono.zip"))
+                {
+                    oS.LoadResponseFromStream(sr, "application/zip");
+                }
+                return;
+
+            }
             if (oS.fullUrl == "http://ad2.nono.nyanbox.com:7080/static/server-list.json")
             {
                 oS.utilCreateResponseAndBypassServer();

@@ -67,7 +67,8 @@ namespace Ruri
         }
         public string GetResVersion(string param)
         {
-            return @"{'curResVersion':15,'curResPackageUrl':'http://nonostatic.b0.upaiyun.com/assets/'}".Replace('\'', '"');
+            // return @"{'curResVersion':15,'curResPackageUrl':'http://nonostatic.b0.upaiyun.com/assets/'}".Replace('\'', '"');
+            return @"{'curResVersion':15,'curResPackageUrl':'http://192.168.1.188:8000/'}".Replace('\'', '"');
         }
     }
     public class Battle
