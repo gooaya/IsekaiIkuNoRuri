@@ -12,13 +12,11 @@ namespace FiddlerCore.NetCore
     public class ProxyController
     {
         const ushort iPort = 8080;
-        static string consoleHost = "gooaya.github.io";
-
-        FiddlerCoreStartupSettings startupSettings;
+        static readonly string consoleHost = "gooaya.github.io";
+        readonly FiddlerCoreStartupSettings startupSettings;
         Ruri.Ruri ruri;
         string packageVersion;
-
-        List<Service> proxyServices = new List<Service>();
+        readonly List<Service> proxyServices = new List<Service>();
 
         public ProxyController()
         {
@@ -76,7 +74,6 @@ namespace FiddlerCore.NetCore
         private void OnRequest(Session oS)
         {
             FiddlerApplication.Log.LogFormat("{0} {1}", oS.RequestMethod, oS.fullUrl);
-            Console.WriteLine(oS.fullUrl); 
             if (oS.fullUrl == "http://127.0.0.1:" + ProxyController.iPort + "/android/1-15.zip" && this.proxyServices.Count>0)
             {
                 oS.utilCreateResponseAndBypassServer();

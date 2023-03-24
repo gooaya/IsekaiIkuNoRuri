@@ -8,6 +8,19 @@
     android:orientation="vertical"
     android:minWidth="25px"
     android:minHeight="25px">
+    <TextView
+        android:inputType="textMultiLine"
+        android:text="通知未允许，可能会降低代理后台的稳定性。"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/textPermissionDescription" />
+    <Button
+        android:text="前往设置"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonPermission" />
     <Switch
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

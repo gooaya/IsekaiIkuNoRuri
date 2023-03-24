@@ -25,10 +25,11 @@ namespace Ruri
         }
         public string SyncData(string param)
         {
-            var res = new JObject();
-            res["user"] = this.UserData;
-            res["serverTime"] = 1545752883;
-            string aa = res.ToString(Formatting.None);
+            var res = new JObject
+            {
+                ["user"] = this.UserData,
+                ["serverTime"] = 1545752883
+            };
             return res.ToString(Formatting.None);
         }
         public string CheckStatus(string param)
@@ -66,8 +67,8 @@ namespace Ruri
         }
         public string Login(string param)
         {
-            JObject p = JObject.Parse(param);
-            string ver = (string)p["version"];
+            // JObject p = JObject.Parse(param);
+            // string ver = (string)p["version"];
             return @"{'version':'0.7.8','result':0,'secret':'t1PwOOP5OgilGe4St1PwPedQOgj5OGnL'}".Replace('\'', '"');
         }
         public string GetResVersion(string param)
@@ -256,7 +257,7 @@ namespace Ruri
 
     public class Ruri
     {
-        string packageVersion;
+        readonly string packageVersion;
         public JObject UserData { get; set; }
         public JObject ServerData { get; set; }
 
@@ -278,10 +279,12 @@ namespace Ruri
         }
         public string DataSnapshot()
         {
-            JObject data = new JObject();
-            data["userData"] = this.UserData;
-            data["serverData"] = this.ServerData;
-            data["version"] = this.packageVersion;
+            JObject data = new JObject
+            {
+                ["userData"] = this.UserData,
+                ["serverData"] = this.ServerData,
+                ["version"] = this.packageVersion
+            };
             return data.ToString(Formatting.Indented);
         }
         public User User { get; }

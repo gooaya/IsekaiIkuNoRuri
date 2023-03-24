@@ -10,14 +10,15 @@ using System;
 using Android.Support.V4.App;
 using Java.Net;
 using Android;
+using Android.Views;
 
 namespace ruri
 {
-    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, Exported = true)]
+    [Activity(Label = "@string/app_name", Theme = "@style/AppTheme", MainLauncher = true, Exported = true, LaunchMode = Android.Content.PM.LaunchMode.SingleTop, AlwaysRetainTaskState = true)]
     public class MainActivity : AppCompatActivity
     {
         private bool isStarted;
-
+        private bool isNotificationEnabled = false;
         // ProxyServiceConnection serviceConnection;
 
         protected override void OnCreate(Bundle savedInstanceState)
@@ -62,27 +63,47 @@ namespace ruri
                 StartActivity(intent);
             };
 
-            bool notificationsEnabled = NotificationManagerCompat.From(this).AreNotificationsEnabled();
-            if (notificationsEnabled)
+            this.isNotificationEnabled = NotificationManagerCompat.From(this).AreNotificationsEnabled();
+            if (this.isNotificationEnabled)
             {
+                FindViewById<TextView>(Resource.Id.textPermissionDescription).Visibility = ViewStates.Gone;
+                FindViewById<Button>(Resource.Id.buttonPermission).Visibility = ViewStates.Gone;
                 // Notifications are enabled
             }
             else
             {
-                Intent intent = new Intent();
-                intent.SetAction(Android.Provider.Settings.ActionApplicationDetailsSettings);
-                intent.AddCategory(Intent.CategoryDefault);
-                intent.SetData(Android.Net.Uri.Parse("package:" + Application.Context.PackageName));
-                StartActivity(intent);
+                FindViewById<Button>(Resource.Id.buttonPermission).Click += (o, e) =>
+                {
+                    Intent intent = new Intent();
+                    intent.SetAction(Android.Provider.Settings.ActionApplicationDetailsSettings);
+                    intent.AddCategory(Intent.CategoryDefault);
+                    intent.SetData(Android.Net.Uri.Parse("package:" + Application.Context.PackageName));
+                    StartActivity(intent);
+                };
             }
         }
 
+        protected override void OnResume()
+        {
+            base.OnResume(); 
+            if(!this.isNotificationEnabled)
+            {
+                this.isNotificationEnabled = NotificationManagerCompat.From(this).AreNotificationsEnabled();
+                if(this.isNotificationEnabled)
+                {
+                    FindViewById<TextView>(Resource.Id.textPermissionDescription).Visibility = ViewStates.Gone;
+                    FindViewById<Button>(Resource.Id.buttonPermission).Visibility = ViewStates.Gone;
+                }
+            }
+
+        }
 
         protected override void OnNewIntent(Intent intent)
         {
-            var bundle = intent == null ? null : intent.Extras;
+            var bundle = intent?.Extras;
             if (bundle == null) return;
             isStarted = bundle.ContainsKey(Constants.SERVICE_STARTED_KEY);
+            if(isStarted) { FindViewById<Switch>(Resource.Id.switchBeacon).Checked = true; }
         }
 
         protected override void OnDestroy()
@@ -129,15 +150,16 @@ namespace ruri
             _userDataPath = Path.Combine(ApplicationContext.GetExternalFilesDir(null).Path, "userData-0.7.8.json");
             if (!controller.Inited)
             {
-                var packageInfo = ApplicationContext.PackageManager.GetPackageInfo(ApplicationContext.PackageName, 0);
+                var packageInfo = ApplicationContext.PackageManager.GetPackageInfo(
+                    ApplicationContext.PackageName,
+                    0 // Android.Content.PM.PackageManager.PackageInfoFlags.Of(0)
+                    );
                 var packageVersion = packageInfo.VersionName.ToString();
 
                 if (!File.Exists(_userDataPath))
                 {
-                    using (StreamReader sr = new StreamReader(this.Assets.Open("userData.json")))
-                    {
-                        controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""" + packageVersion + @"""}", packageVersion);
-                    }
+                    using StreamReader sr = new StreamReader(this.Assets.Open("userData.json"));
+                    controller.Init(@"{""userData"":" + sr.ReadToEnd() + @",""serverData"":{},""version"":""" + packageVersion + @"""}", packageVersion);
                 }
                 else
                 {
@@ -162,19 +184,18 @@ namespace ruri
         {
             get
             {
-                if (manager == null)
-                {
-                    manager = (NotificationManager)GetSystemService(NotificationService);
-                }
+                manager ??= (NotificationManager)GetSystemService(NotificationService);
                 return manager;
             }
         }
 
-        String createNotificationChannel(String channelId, String channelName)
+        String CreateNotificationChannel(String channelId, String channelName)
         {
-            var chan1 = new NotificationChannel(channelId, channelName, NotificationImportance.Default);
-            // chan1.LightColor = Color.Green;
-            chan1.LockscreenVisibility = NotificationVisibility.Private;
+            var chan1 = new NotificationChannel(channelId, channelName, NotificationImportance.Default)
+            {
+                // chan1.LightColor = Color.Green;
+                LockscreenVisibility = NotificationVisibility.Private
+            };
             Manager.CreateNotificationChannel(chan1);
             return channelId;
         }
@@ -182,7 +203,7 @@ namespace ruri
         void RegisterForegroundService()
         {
 
-            Notification notification = new NotificationCompat.Builder(this, createNotificationChannel("ruri_channel", "Ruri Channel"))
+            Notification notification = new NotificationCompat.Builder(this, CreateNotificationChannel("ruri_channel", "Ruri Channel"))
                 .SetAutoCancel(false)
                 .SetContentTitle(Resources.GetString(Resource.String.desc_connected))
                 .SetSmallIcon(Resource.Mipmap.ic_launcher_foreground)
@@ -239,7 +260,7 @@ namespace ruri
             {
                 Log.Info(TAG, "OnStartCommand: The service is stopping.");
                 controller.Stop();
-                StopForeground(true);
+                StopForeground(StopForegroundFlags.Remove);
                 StopSelf();
                 isStarted = false;
             }
