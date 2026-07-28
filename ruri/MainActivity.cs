@@ -11,6 +11,8 @@ using Android.Support.V4.App;
 using Java.Net;
 using Android;
 using Android.Views;
+using Android.Net.Wifi;
+using Android.Net;
 
 namespace ruri
 {
@@ -80,6 +82,23 @@ namespace ruri
                     intent.SetData(Android.Net.Uri.Parse("package:" + Application.Context.PackageName));
                     StartActivity(intent);
                 };
+            }
+
+            ConnectivityManager connectivityManager = (ConnectivityManager)ApplicationContext.GetSystemService(Context.ConnectivityService);
+            WifiManager wifiManager = (WifiManager)ApplicationContext.GetSystemService(Context.WifiService);
+            var bb = wifiManager.NetworkSuggestions.Count;
+            foreach(var suggestion in wifiManager.NetworkSuggestions)
+            {
+                var a = suggestion.Ssid;
+            }
+
+
+            Network activeNetwork = connectivityManager.ActiveNetwork;
+            NetworkInfo info = connectivityManager.GetNetworkInfo(activeNetwork);
+            
+            if (activeNetwork != null)
+            {
+                ProxyInfo proxyInfo = connectivityManager.DefaultProxy;
             }
         }
 
@@ -168,6 +187,22 @@ namespace ruri
                 }
             }
             controller.SetProxyService(this);
+            WifiManager wifiManager = (WifiManager)ApplicationContext.GetSystemService(Context.WifiService);
+            // check if wifi is enabled
+            if (wifiManager.IsWifiEnabled)
+            {
+                WifiInfo wifiInfo = wifiManager.ConnectionInfo;
+                Console.WriteLine(wifiInfo.SSID);
+                foreach (var wifiConfig in wifiManager.ConfiguredNetworks)
+                {
+                    if (wifiConfig.NetworkId == wifiInfo.NetworkId)
+                    {
+                        Console.WriteLine(wifiConfig.HttpProxy.Host);
+                        Console.WriteLine(wifiConfig.HttpProxy.Port);
+                    }
+                }
+            }
+            
         }
 
         // Magical code that makes the service do wonderful things.
